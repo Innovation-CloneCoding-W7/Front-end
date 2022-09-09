@@ -1,4 +1,6 @@
+
 import {ShopMainCarouselContainer, SwiperOverlay} from "./styles";
+
 import {Autoplay, Pagination, Scrollbar} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
@@ -20,6 +22,7 @@ const ShopMainCarousel = () => {
         >
             <SwiperSlide>
                 <img src="/Carousel/Carousel0.jpg" alt="Carousel Image"/>
+
                 <SwiperOverlay>
                     <h2>월 커넥터</h2>
                     <p>집에서 충전하는 가장 빠른 방법</p>
@@ -33,6 +36,7 @@ const ShopMainCarousel = () => {
                     <p>사계절 깨끗한 실내</p>
                     <button>지금 쇼핑하기</button>
                 </SwiperOverlay>
+
             </SwiperSlide>
         </Swiper>
     </ShopMainCarouselContainer>
