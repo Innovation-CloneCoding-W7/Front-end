@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "name": "월 커넥터 스탠드",
+      "category": "charging",
+      "price": 360000,
+      "image": "???"
+    },
+    {
+      "name": "월 커넥터 컬러 페이스플레이트",
+      "category": "charging",
+      "price": 123000,
+      "image": "???"
+    }
+  ]
+}
+
+{
+  "name": "월 커넥터 스탠드",
+  "category": "charging",
+  "price": 360000,
+  "maxQuantity": 2,
+  "detail": "Tesla 월 커넥터 스탠드는 Gen 3 및 Gen 2 월 커넥터를 독립형 충전용으로 장착할 수 있도록 설계된 견고한 알루미늄 거치대입니다. 간단하게 실내 및 실외 설치가 가능한 Tesla 월 커넥터 스탠드는 월 커넥터를 지지하기 위해 독립형 구조를 필요로 하는 모든 진입로, 주차장 또는 건물에 이상적입니다. Tesla 월 커넥터 스탠드는 한 대 또는 두 대의 Tesla 차량을 동시에 충전할 수 있도록 단일 및 이중 장착 구성을 모두 지원합니다.",
+  "composition": [
+    "1 x Tesla 스탠드",
+    "4 x 글로벌 와이어링",
+    "4 x 월 커넥터 고정 나사"
+  ],
+  "info": "스탠드 설치 시, 일반적으로 스탠드를 고정하기 위한 굴착 및 콘크리트 패드작업이 필요합니다. 설치상황은 장소별로 상이합니다.\n구입하기 전에 설치 계획 및 비용 견적을 시공업체와 상의하시기 바랍니다.",
+  "caution": "※ 주의: 설치 및 Tesla 월 커넥터는 미포함 상품입니다.",
+  "partNumber": "1508484-00-B",
+  "importedBy": "TESLA KOREA",
+  "origin": "미국",
+  "applicableModels": [
+    "Model 3",
+    "Model S",
+    "Model X",
+    "Model Y"
+  ],
+  "releaseDate": "2021/2",
+  "size": "17.5(L) X 25(W) X 120(H) (cm), 5.2(kg)"
+}
