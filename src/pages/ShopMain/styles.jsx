@@ -8,7 +8,6 @@ const ShopMainCarouselContainer = styled.div`
   }
 `;
 
-
 const SwiperOverlay = styled.div`
   position: absolute;
   top: 70%;
