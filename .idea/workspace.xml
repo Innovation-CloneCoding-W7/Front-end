@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 라우터 설정.">
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 리덕스랑 툴킷 추가.">
+      <change afterPath="$PROJECT_DIR$/public/Carousel/Carousel0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Carousel/Carousel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/config/configStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/config/configStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jinwookkim/Desktop/Sparta/React/teslaclone/public/Carousel",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
@@ -46,6 +51,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Carousel" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -71,7 +82,7 @@
       <updated>1662687852338</updated>
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
-      <workItem from="1662695816823" duration="5659000" />
+      <workItem from="1662695816823" duration="10573000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -108,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662702392076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Add] 리덕스랑 툴킷 추가.">
+      <created>1662702801726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662702801726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +149,7 @@
     <MESSAGE value="[Fix] .gitignore" />
     <MESSAGE value="[Add] 파일 구조 예시." />
     <MESSAGE value="[Add] 라우터 설정." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 라우터 설정." />
+    <MESSAGE value="[Add] 리덕스랑 툴킷 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 리덕스랑 툴킷 추가." />
   </component>
 </project>

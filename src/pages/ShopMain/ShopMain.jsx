@@ -1,7 +1,10 @@
+import {ShopMainContainer} from "./styles";
+import ShopMainCarousel from "./ShopMainCarousel";
+
 const ShopMain = () => {
-    return <div>
-        wow
-    </div>
+    return <ShopMainContainer>
+        <ShopMainCarousel/>
+    </ShopMainContainer>
 }
 
 export default ShopMain;
