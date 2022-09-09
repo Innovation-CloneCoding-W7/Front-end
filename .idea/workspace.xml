@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/temp.json" afterDir="false" />
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 파일 구조 예시.">
+      <change afterPath="$PROJECT_DIR$/src/redux/config/configStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <updated>1662687852338</updated>
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
-      <workItem from="1662695816823" duration="2260000" />
+      <workItem from="1662695816823" duration="2865000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662696572682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Add] 파일 구조 예시.">
+      <created>1662699292719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699292719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +106,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[Add] Axios 추가." />
     <MESSAGE value="[Fix] .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] .gitignore" />
+    <MESSAGE value="[Add] 파일 구조 예시." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 파일 구조 예시." />
   </component>
 </project>
