@@ -1,5 +1,7 @@
 const ShopMain = () => {
-    return <div></div>
+    return <div>
+        wow
+    </div>
 }
 
 export default ShopMain;
