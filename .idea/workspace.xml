@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 메인 페이지 쇼케이스 추가.">
-      <change afterPath="$PROJECT_DIR$/public/assets/ShopMain/Men.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/ShopMain/Women.png" afterDir="false" />
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 의류 쇼케이스 추가.">
+      <change afterPath="$PROJECT_DIR$/src/components/ShopFooter/ShopFooter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopFooter/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ShopFooter" />
       <recent name="$PROJECT_DIR$/public/assets" />
     </key>
   </component>
@@ -82,7 +81,7 @@
       <updated>1662687852338</updated>
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
-      <workItem from="1662695816823" duration="16527000" />
+      <workItem from="1662695816823" duration="17214000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662712887042</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[Add] 의류 쇼케이스 추가.">
+      <created>1662714843497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714843497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +188,7 @@
     <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
     <MESSAGE value="[Fix] Fix minor issues." />
     <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 메인 페이지 쇼케이스 추가." />
+    <MESSAGE value="[Add] 의류 쇼케이스 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 의류 쇼케이스 추가." />
   </component>
 </project>
