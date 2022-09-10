@@ -8,6 +8,7 @@ const ShopNavigationBarContainer = styled.div`
   z-index: 2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: transparent;
   transition: all .3s;
 
@@ -26,17 +27,27 @@ const ShopNavigationBarContainer = styled.div`
 `;
 
 const ShopNavigationBarLeft = styled.div`
+  display: flex;
+  align-items: center;
+
   img {
     width: 100px;
     filter: brightness(0) invert(1);
-    margin-right: 30px;
+    padding-right: 20px;
+    border-right: 1px solid white;
   }
 
   a:last-child {
     text-decoration: none;
     color: white;
-    border-left: 1px solid white;
-    padding-left: 30px;
+    padding: 5px 10px;
+    transition: all .3s;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: lightgray;
+    }
   }
 `;
 
@@ -44,9 +55,16 @@ const ShopNavigationBarCenter = styled.div`
   a {
     text-decoration: none;
     color: white;
+    padding: 5px 10px;
+    transition: all .3s;
+    border-radius: 5px;
 
     &:not(:last-child) {
-      margin-right: 24px;
+      margin-right: 10px;
+    }
+
+    &:hover {
+      background-color: lightgray;
     }
   }
 `;
@@ -64,6 +82,13 @@ const ShopNavigationBarRight = styled.div`
   p {
     cursor: pointer;
     margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all .3s;
+
+    &:hover {
+      background-color: lightgray;
+    }
   }
 `;
 
