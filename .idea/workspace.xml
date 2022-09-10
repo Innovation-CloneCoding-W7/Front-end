@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] img alt 수정.">
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] Fix minor issues.">
       <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
       <workItem from="1662695816823" duration="17214000" />
-      <workItem from="1662718962577" duration="6611000" />
+      <workItem from="1662718962577" duration="6759000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662787333227</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[Fix] Fix minor issues.">
+      <created>1662787661385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787661385</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +240,6 @@
     <MESSAGE value="[Add] 리덕스랑 툴킷 추가." />
     <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
     <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
-    <MESSAGE value="[Fix] Fix minor issues." />
     <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
     <MESSAGE value="[Add] 의류 쇼케이스 추가." />
     <MESSAGE value="[Add] 샵내브바 왼쪽 부분 추가." />
@@ -243,6 +249,7 @@
     <MESSAGE value="[Delete] App.js 삭제." />
     <MESSAGE value="[Delete] 쓸모 없는 파일들 정리." />
     <MESSAGE value="[Fix] img alt 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] img alt 수정." />
+    <MESSAGE value="[Fix] Fix minor issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Fix minor issues." />
   </component>
 </project>

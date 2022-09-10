@@ -70,6 +70,7 @@ const ShowcaseItemOverlay = styled.div`
     color: ${(props) => props.$isTitleDark ? "black" : "white"};
     font-weight: normal;
     font-size: 2rem;
+    margin-bottom: 20px;
   }
 
   button {
