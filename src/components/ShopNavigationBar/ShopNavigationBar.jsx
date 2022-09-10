@@ -8,6 +8,9 @@ import {Link} from "react-router-dom";
 import {FaSearch, FaShoppingCart} from "react-icons/fa";
 
 const ShopNavigationBar = () => {
+    const menuClickHandler = () => {
+
+    }
     return <ShopNavigationBarContainer>
         <ShopNavigationBarLeft>
             <Link to="/">
@@ -25,7 +28,7 @@ const ShopNavigationBar = () => {
         <ShopNavigationBarRight>
             <FaSearch/>
             <FaShoppingCart/>
-            <p>메뉴</p>
+            <p onClick={menuClickHandler}>메뉴</p>
         </ShopNavigationBarRight>
     </ShopNavigationBarContainer>
 }
