@@ -1,12 +1,13 @@
 import ReactDOM from 'react-dom/client';
-import App from "./App";
 import Router from "./shared/Router";
+import GlobalStyle from "./shared/GlobalStyle";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <Router>
-        <App />
-    </Router>
+    <div>
+        <GlobalStyle/>
+        <Router/>
+    </div>
 );
 
