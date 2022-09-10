@@ -4,6 +4,8 @@ const ShopNavigationBarContainer = styled.div`
   position: absolute;
   padding: 20px;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const ShopNavigationBarLeft = styled.div`
@@ -21,4 +23,15 @@ const ShopNavigationBarLeft = styled.div`
   }
 `;
 
-export {ShopNavigationBarContainer, ShopNavigationBarLeft}
+const ShopNavigationBarCenter = styled.div`
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+`;
+
+export {ShopNavigationBarContainer, ShopNavigationBarLeft, ShopNavigationBarCenter}
