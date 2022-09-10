@@ -2,10 +2,27 @@ import styled from "styled-components";
 
 const ShopNavigationBarContainer = styled.div`
   position: absolute;
+  box-sizing: border-box;
+  width: 100%;
   padding: 20px;
   z-index: 2;
   display: flex;
   justify-content: space-between;
+  background-color: transparent;
+  transition: all .3s;
+
+  &:hover {
+    background-color: white;
+  }
+
+  &:hover * {
+    color: black !important;
+    border-color: black !important;
+  }
+
+  &:hover img {
+    filter: brightness(0);
+  }
 `;
 
 const ShopNavigationBarLeft = styled.div`
@@ -34,4 +51,20 @@ const ShopNavigationBarCenter = styled.div`
   }
 `;
 
-export {ShopNavigationBarContainer, ShopNavigationBarLeft, ShopNavigationBarCenter}
+const ShopNavigationBarRight = styled.div`
+  display: flex;
+  color: white;
+  align-items: center;
+
+  svg {
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  p {
+    cursor: pointer;
+    margin: 0;
+  }
+`;
+
+export {ShopNavigationBarContainer, ShopNavigationBarLeft, ShopNavigationBarCenter, ShopNavigationBarRight}
