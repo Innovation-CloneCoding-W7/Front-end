@@ -1,5 +1,11 @@
-import {ShopNavigationBarCenter, ShopNavigationBarContainer, ShopNavigationBarLeft} from "./styles";
+import {
+    ShopNavigationBarCenter,
+    ShopNavigationBarContainer,
+    ShopNavigationBarLeft,
+    ShopNavigationBarRight
+} from "./styles";
 import {Link} from "react-router-dom";
+import {FaSearch, FaShoppingCart} from "react-icons/fa";
 
 const ShopNavigationBar = () => {
     return <ShopNavigationBarContainer>
@@ -16,6 +22,11 @@ const ShopNavigationBar = () => {
             <Link to="/shop/category/lifestyle">라이프스타일</Link>
             <Link to="/shop/category/service-installables">충전</Link>
         </ShopNavigationBarCenter>
+        <ShopNavigationBarRight>
+            <FaSearch/>
+            <FaShoppingCart/>
+            <p>메뉴</p>
+        </ShopNavigationBarRight>
     </ShopNavigationBarContainer>
 }
 
