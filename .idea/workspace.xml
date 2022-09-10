@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] Fix minor issues.">
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EVjsNloo3PSYC1EWGqwVQbQM78" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinwookkim/Desktop/Sparta/React/teslaclone/public/assets/ShopMain&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/ShopMain" />
+      <recent name="$PROJECT_DIR$/public/Carousel" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ShopFooter" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="" />
+      <created>1662687852338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662687852338</updated>
+      <workItem from="1662687853673" duration="1038000" />
+      <workItem from="1662688896933" duration="2446000" />
+      <workItem from="1662695816823" duration="17214000" />
+      <workItem from="1662718962577" duration="6759000" />
+    </task>
+    <task id="LOCAL-00001" summary="[Add] Axios 추가.">
+      <created>1662695838316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662695838316</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Fix] .gitignore">
+      <created>1662696572682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662696572682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Add] 파일 구조 예시.">
+      <created>1662699292719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699292719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Add] 파일 구조 예시.">
+      <created>1662699949335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699949335</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Add] 라우터 설정.">
+      <created>1662702392076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662702392076</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Add] 리덕스랑 툴킷 추가.">
+      <created>1662702801726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662702801726</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Add] Shop 메인 페이지 슬라이더 추가.">
+      <created>1662707647175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662707647175</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[Add] 슬라이더 오버레이 추가.">
+      <created>1662708437078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662708437078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[Fix] Fix minor issues.">
+      <created>1662708971763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662708971763</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[Add] 메인 페이지 쇼케이스 추가.">
+      <created>1662712887042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662712887042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[Add] 의류 쇼케이스 추가.">
+      <created>1662714843497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714843497</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[Add] 샵내브바 왼쪽 부분 추가.">
+      <created>1662782989069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662782989069</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[Add] 샵내브바 중앙 부분 추가.">
+      <created>1662783305135</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662783305135</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[Add] 샵내브바 오른쪽 부분 추가.">
+      <created>1662786145771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662786145771</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Add] 샵내브바 항목 호버 효과 추가.">
+      <created>1662786680517</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662786680517</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[Delete] App.js 삭제.">
+      <created>1662787080208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787080208</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[Delete] 쓸모 없는 파일들 정리.">
+      <created>1662787243666</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787243666</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[Fix] img alt 수정.">
+      <created>1662787333227</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787333227</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[Fix] Fix minor issues.">
+      <created>1662787661385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787661385</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[Add] Axios 추가." />
+    <MESSAGE value="[Fix] .gitignore" />
+    <MESSAGE value="[Add] 파일 구조 예시." />
+    <MESSAGE value="[Add] 라우터 설정." />
+    <MESSAGE value="[Add] 리덕스랑 툴킷 추가." />
+    <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
+    <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
+    <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
+    <MESSAGE value="[Add] 의류 쇼케이스 추가." />
+    <MESSAGE value="[Add] 샵내브바 왼쪽 부분 추가." />
+    <MESSAGE value="[Add] 샵내브바 중앙 부분 추가." />
+    <MESSAGE value="[Add] 샵내브바 오른쪽 부분 추가." />
+    <MESSAGE value="[Add] 샵내브바 항목 호버 효과 추가." />
+    <MESSAGE value="[Delete] App.js 삭제." />
+    <MESSAGE value="[Delete] 쓸모 없는 파일들 정리." />
+    <MESSAGE value="[Fix] img alt 수정." />
+    <MESSAGE value="[Fix] Fix minor issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Fix minor issues." />
+  </component>
+</project>
