@@ -11,14 +11,6 @@ const Header = () => {
           </Link>
         </Modeldiv>
         <Modeldiv>
-          <Modelbutton>Model S</Modelbutton>
-          <Modelbutton>Model 3</Modelbutton>
-          <Modelbutton>Model X</Modelbutton>
-          <Modelbutton>Model Y</Modelbutton>
-          <Modelbutton>Solar Roof</Modelbutton>
-          <Modelbutton>Solar Panels</Modelbutton>
-        </Modeldiv>
-        <Modeldiv>
           <StButton className="en-US">
             <EarthImg className="logo" src="img/earth.png" />{" "}
             <Stdiv>en-US</Stdiv>

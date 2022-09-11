@@ -1,41 +1,112 @@
 import MainHeader from "../../components/Header/Mainheader";
 import styled from "styled-components";
+import Model3 from "./pages/Model3";
+import ModelS from "./pages/ModelS";
+import ModelY from "./pages/ModelY";
+import ModelX from "./pages/ModelX";
+import SolarPanels from "./pages/SolarPanels";
+import ShopFooter from "../../components/ShopFooter/ShopFooter";
+import Accesaries from "./pages/Accesaries";
 
 const Main = () => {
   return (
     <>
       <MainHeader />
-      <Stdiv>
+      <Stdiv2>
         <Sth1>Model 3</Sth1>
-        <Stspan>Order Online for Touchless Delivery</Stspan>
-      </Stdiv>
+        <Stspan>
+          Order Online for <Sta href="/">Touchless Delivery</Sta>
+        </Stspan>
+      </Stdiv2>
       <Stdiv>
-        <Sth1>model</Sth1>
+        <Stbutton1>Custom order</Stbutton1>
+        <Stbutton2>Existing inventory</Stbutton2>
       </Stdiv>
-      <Stdiv>
-        <Sth1>model</Sth1>
-      </Stdiv>
-      <Stdiv2></Stdiv2>
+      <Stdiv3>
+        <DownArrow src="/img/DownArrow.png" />
+      </Stdiv3>
+      <Model3 />
+      <ModelS />
+      <ModelY />
+      <ModelX />
+      <SolarPanels />
+      <Accesaries />
+      <ShopFooter />
     </>
   );
 };
 
-export default Main;
+const Stdiv3 = styled.div`
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 820px;
+  position: fixed;
+  width: 100%;
+`;
+const DownArrow = styled.img`
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  transition: fill 0.3s ease, stroke 0.3s ease;
+`;
 
 const Stdiv = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-image: url("img/tesla_main1.jpg");
-  background-size: cover;
-  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 720px;
+  position: fixed;
+  width: 100%;
+`;
+
+const Stdiv2 = styled.div`
+  margin-top: 140px;
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+`;
+
+const Stbutton1 = styled.button`
+  width: 264px;
+  height: 40px;
+  color: white;
+  margin-right: 24px;
+  border-color: transparent;
+  letter-spacing: 1px;
+  background-color: rgba(23, 26, 32, 0.8);
+`;
+
+const Stbutton2 = styled.button`
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  letter-spacing: 1px;
+  border-color: transparent;
+  background-color: rgba(244, 244, 244, 0.65);
 `;
 
 const Sth1 = styled.h1`
+  font-family: sans-serif;
   text-align: center;
+  margin-bottom: 10px;
 `;
 
-const Stspan = styled.h3`
-  text-align: center;
+const Stspan = styled.div`
+  align-content: center;
+  font-family: text;
+  font-weight: lighter;
+  animation: onMountText 2s;
+  animation-fill-mode: forwards;
 `;
 
-const Stdiv2 = styled.div``;
+const Sta = styled.a`
+  color: black;
+`;
+
+export default Main;
