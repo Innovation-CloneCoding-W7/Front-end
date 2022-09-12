@@ -19,7 +19,9 @@ const MainHeader = () => {
           <Modelbutton>Solar Panels</Modelbutton>
         </Modeldiv>
         <Modeldiv3>
-          <Modelbutton>Shop</Modelbutton>
+          <Link to="/shop">
+            <Modelbutton>Shop</Modelbutton>
+          </Link>
           <Link to="/login">
             <Modelbutton>Account</Modelbutton>
           </Link>

@@ -30,12 +30,7 @@ const SwiperOverlay = styled.div`
     color: white;
     text-align: center;
     font-size: 1.5rem;
-<<<<<<< HEAD
-    margin: 0;
-    margin-bottom: 30px;
-=======
     margin: 0 0 50px 0;
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
   }
 
   button {
@@ -57,7 +52,6 @@ const ShowcaseItemContainer = styled.div`
     max-width: 100%;
     display: block;
   }
-
 `;
 
 const ShowcaseItemOverlay = styled.div`
@@ -71,33 +65,30 @@ const ShowcaseItemOverlay = styled.div`
   align-items: center;
 
   h2 {
-    color: ${(props) => props.$isTitleDark ? "black" : "white"};
+    color: ${(props) => (props.$isTitleDark ? "black" : "white")};
     font-weight: normal;
     font-size: 2rem;
     margin-bottom: 20px;
   }
 
   button {
-<<<<<<< HEAD
-    border: none;
-=======
-    border: ${(props) => props.$isButtonBordered ? "3px solid black;" : "none;"};
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
+    border: ${(props) =>
+      props.$isButtonBordered ? "3px solid black;" : "none;"};
     border-radius: 5px;
     padding: 10px;
     width: 250px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
-    transition: all .3s;
+    transition: all 0.3s;
 
     &:hover {
-      ${(props) => props.$isButtonBordered ? `
+      ${(props) =>
+        props.$isButtonBordered
+          ? `
         color: white;
         background-color: black;
-      ` : null}
+      `
+          : null}
     }
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
   }
 `;
 
@@ -118,7 +109,8 @@ const ShowcaseHalfItemContainer = styled.div`
   }
 `;
 
-const ShowcaseHalfItemOverlay = styled.div`position: absolute;
+const ShowcaseHalfItemOverlay = styled.div`
+  position: absolute;
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -128,7 +120,7 @@ const ShowcaseHalfItemOverlay = styled.div`position: absolute;
   align-items: center;
 
   h2 {
-    color: ${(props) => props.$isTitleDark ? "black" : "white"};
+    color: ${(props) => (props.$isTitleDark ? "black" : "white")};
     font-weight: normal;
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -140,7 +132,7 @@ const ShowcaseHalfItemOverlay = styled.div`position: absolute;
     padding: 10px;
     width: 150px;
     cursor: pointer;
-    transition: all .3s;
+    transition: all 0.3s;
 
     &:hover {
       color: white;
@@ -150,14 +142,13 @@ const ShowcaseHalfItemOverlay = styled.div`position: absolute;
 `;
 
 export {
-    ShowcaseItemOverlay,
-    ShowcaseItemContainer,
-    ShopMainContainer,
-    ShopMainCarouselContainer,
-    SwiperOverlay,
-    ShopMainShowcaseContainer,
-    ShowcaseItemDivider,
-    ShowcaseHalfItemContainer,
-    ShowcaseHalfItemOverlay
+  ShowcaseItemOverlay,
+  ShowcaseItemContainer,
+  ShopMainContainer,
+  ShopMainCarouselContainer,
+  SwiperOverlay,
+  ShopMainShowcaseContainer,
+  ShowcaseItemDivider,
+  ShowcaseHalfItemContainer,
+  ShowcaseHalfItemOverlay,
 };
-
