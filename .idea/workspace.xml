@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 샵 카트 페이지 추가.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] Shop FAQ.">
+      <change afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBodyEmpty.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662960065015</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[Add] Shop FAQ.">
+      <created>1662963091058</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662963091058</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +328,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] Axios 추가." />
     <MESSAGE value="[Fix] .gitignore" />
     <MESSAGE value="[Add] 파일 구조 예시." />
     <MESSAGE value="[Add] 라우터 설정." />
@@ -346,6 +352,7 @@
     <MESSAGE value="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가." />
     <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
     <MESSAGE value="[Add] 샵 카트 페이지 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 샵 카트 페이지 추가." />
+    <MESSAGE value="[Add] Shop FAQ." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Shop FAQ." />
   </component>
 </project>

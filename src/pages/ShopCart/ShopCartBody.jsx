@@ -1,6 +1,7 @@
 import {ShopCartBodyContainer} from "./styles";
 import {useContext, useEffect} from "react";
 import GlobalState from "../../shared/GlobalStates";
+import ShopCartBodyEmpty from "./ShopCartBodyEmpty";
 
 const ShopCartBody = () => {
     const {setIsNavigationBarAlwaysOpen} = useContext(GlobalState);
@@ -8,7 +9,7 @@ const ShopCartBody = () => {
         setIsNavigationBarAlwaysOpen(true);
     }, [setIsNavigationBarAlwaysOpen]);
     return <ShopCartBodyContainer>
-
+        <ShopCartBodyEmpty/>
     </ShopCartBodyContainer>
 }
 
