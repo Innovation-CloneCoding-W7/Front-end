@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
-const ShopCatalogueContainer = styled.div``;
+const ShopCatalogueContainer = styled.div`
+  padding: 30px;
+  margin-top: 50px;
+`;
 
-export {ShopCatalogueContainer}
+const ShopCatalogueHeaderContainer = styled.div``;
+
+const ShopCatalogueBodyContainer = styled.div``;
+
+export {ShopCatalogueContainer, ShopCatalogueHeaderContainer, ShopCatalogueBodyContainer}
