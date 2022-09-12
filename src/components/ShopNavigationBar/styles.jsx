@@ -23,6 +23,15 @@ const ShopNavigationBarContainer = styled.div`
     border-color: black !important;
   }
 
+  ${(props) => props.$isNavigationBarAlwaysOpen ? `
+    & * {
+      color: black !important;
+      border-color: black !important;
+    }
+    & img {
+      filter: brightness(0) !important;
+    }
+  ` : null}
   &:hover img {
     filter: brightness(0);
   }

@@ -10,12 +10,12 @@ import {useContext} from "react";
 import GlobalState from "../../shared/GlobalStates";
 import OverlayMenu from "../OverlayMenu/OverlayMenu";
 
-const ShopNavigationBar = () => {
+const ShopNavigationBar = ({isNavigationBarAlwaysOpen}) => {
     let {setIsMenuOpen} = useContext(GlobalState);
     const menuClickHandler = () => {
         setIsMenuOpen(true);
     }
-    return <ShopNavigationBarContainer>
+    return <ShopNavigationBarContainer $isNavigationBarAlwaysOpen={isNavigationBarAlwaysOpen}>
         <ShopNavigationBarLeft>
             <Link to="/">
                 <img src="/assets/Logo.png" alt="Logo"/>
