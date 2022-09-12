@@ -85,6 +85,10 @@ const ShopNavigationBarRight = styled.div`
   color: white;
   align-items: center;
 
+  & a {
+    color: inherit;
+  }
+
   svg {
     cursor: pointer;
     margin-right: 15px;
