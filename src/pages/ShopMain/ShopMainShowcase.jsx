@@ -12,6 +12,10 @@ const ShopMainShowcase = () => {
             <ShowcaseItem image={"Men.png"} title={"남성 의류"} isTitleDark={true} isHalfWidth={true}/>
             <ShowcaseItem image={"Women.png"} title={"여성 의류"} isTitleDark={true} isHalfWidth={true}/>
         </ShowcaseItemDivider>
+<<<<<<< HEAD
+=======
+        <ShowcaseItem image={"Cyberwhistle.png"} title={"라이프스타일"} isTitleDark={true} isButtonBordered={true}/>
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
     </ShopMainShowcaseContainer>
 }
 

@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] Fix minor issues.">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/public/assets/ShopMain/Cyberwhistle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" afterDir="false" />
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
       <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +86,12 @@
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
       <workItem from="1662695816823" duration="17214000" />
+<<<<<<< HEAD
       <workItem from="1662718962577" duration="6759000" />
+=======
+      <workItem from="1662718962577" duration="7953000" />
+      <workItem from="1662792065550" duration="2374000" />
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -214,7 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1662787661385</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="20" />
+=======
+    <task id="LOCAL-00020" summary="[Fix] Fix minor issues.">
+      <created>1662787789434</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787789434</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -30,8 +30,12 @@ const SwiperOverlay = styled.div`
     color: white;
     text-align: center;
     font-size: 1.5rem;
+<<<<<<< HEAD
     margin: 0;
     margin-bottom: 30px;
+=======
+    margin: 0 0 50px 0;
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
   }
 
   button {
@@ -74,11 +78,26 @@ const ShowcaseItemOverlay = styled.div`
   }
 
   button {
+<<<<<<< HEAD
     border: none;
+=======
+    border: ${(props) => props.$isButtonBordered ? "3px solid black;" : "none;"};
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
     border-radius: 5px;
     padding: 10px;
     width: 250px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    transition: all .3s;
+
+    &:hover {
+      ${(props) => props.$isButtonBordered ? `
+        color: white;
+        background-color: black;
+      ` : null}
+    }
+>>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
   }
 `;
 
