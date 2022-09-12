@@ -73,7 +73,7 @@ const ShowcaseItemOverlay = styled.div`
 
   button {
     border: ${(props) =>
-      props.$isButtonBordered ? "3px solid black;" : "none;"};
+            props.$isButtonBordered ? "3px solid black;" : "none;"};
     border-radius: 5px;
     padding: 10px;
     width: 250px;
@@ -82,12 +82,12 @@ const ShowcaseItemOverlay = styled.div`
 
     &:hover {
       ${(props) =>
-        props.$isButtonBordered
-          ? `
+              props.$isButtonBordered
+                      ? `
         color: white;
         background-color: black;
       `
-          : null}
+                      : null}
     }
   }
 `;
@@ -142,13 +142,13 @@ const ShowcaseHalfItemOverlay = styled.div`
 `;
 
 export {
-  ShowcaseItemOverlay,
-  ShowcaseItemContainer,
-  ShopMainContainer,
-  ShopMainCarouselContainer,
-  SwiperOverlay,
-  ShopMainShowcaseContainer,
-  ShowcaseItemDivider,
-  ShowcaseHalfItemContainer,
-  ShowcaseHalfItemOverlay,
+    ShowcaseItemOverlay,
+    ShowcaseItemContainer,
+    ShopMainContainer,
+    ShopMainCarouselContainer,
+    SwiperOverlay,
+    ShopMainShowcaseContainer,
+    ShowcaseItemDivider,
+    ShowcaseHalfItemContainer,
+    ShowcaseHalfItemOverlay,
 };

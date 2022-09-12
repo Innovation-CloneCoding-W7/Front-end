@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 샵 메인페이지 사이버휘슬 파트 추가.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 샵 카트 페이지 추가.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +232,77 @@
       <option name="project" value="LOCAL" />
       <updated>1662940814327</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662943856490</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662943856490</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662945716341</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662945716341</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662945906893</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1662945906893</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[Fix] 샵 메인 컨테이너 블러 효과 추가.">
+      <created>1662946426161</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946426161</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정.">
+      <created>1662946585015</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946585015</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[Fix] 소소한 수정.">
+      <created>1662946755801</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946755801</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[Fix] 소소한 수정.">
+      <created>1662948226534</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662948226534</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가.">
+      <created>1662950865977</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662950865977</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[Add] 카탈로그 맵퍼 유틸 추가.">
+      <created>1662951176628</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662951176628</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[Add] 샵 카트 페이지 추가.">
+      <created>1662960065015</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662960065015</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +339,13 @@
     <MESSAGE value="[Fix] img alt 수정." />
     <MESSAGE value="[Fix] Fix minor issues." />
     <MESSAGE value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
+    <MESSAGE value="[Fix] 오버레이 메뉴 고침." />
+    <MESSAGE value="[Fix] 샵 메인 컨테이너 블러 효과 추가." />
+    <MESSAGE value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
+    <MESSAGE value="[Fix] 소소한 수정." />
+    <MESSAGE value="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가." />
+    <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
+    <MESSAGE value="[Add] 샵 카트 페이지 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 샵 카트 페이지 추가." />
   </component>
 </project>

@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 const ShopNavigationBarContainer = styled.div`
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
-  width: 100%;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 100%;
   padding: 20px;
   z-index: 2;
   display: flex;
@@ -21,6 +23,15 @@ const ShopNavigationBarContainer = styled.div`
     border-color: black !important;
   }
 
+  ${(props) => props.$isNavigationBarAlwaysOpen ? `
+    & * {
+      color: black !important;
+      border-color: black !important;
+    }
+    & img {
+      filter: brightness(0) !important;
+    }
+  ` : null}
   &:hover img {
     filter: brightness(0);
   }
@@ -73,6 +84,10 @@ const ShopNavigationBarRight = styled.div`
   display: flex;
   color: white;
   align-items: center;
+
+  & a {
+    color: inherit;
+  }
 
   svg {
     cursor: pointer;

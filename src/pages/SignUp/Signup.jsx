@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { Container1, Container3 } from "../Login/Login";
 import { StForm, StButton, StButton2 } from "../Login/Login";
 import { StSpan1, StSpan2 } from "../Login/Login";
@@ -26,7 +25,7 @@ const SignUp = () => {
   };
 
   const onSubmitHandler = () => {
-    data = (name, nickname, password);
+    const data = (name, nickname, password);
     instance.post("주소", data);
   };
 
