@@ -12,7 +12,9 @@ const OverlayMenuContainer = styled.div`
   width: 300px;
   display: flex;
   flex-direction: column;
+  align-items: start;
   transition: all 1s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
   svg {
     align-self: end;
@@ -25,6 +27,17 @@ const OverlayMenuContainer = styled.div`
 
     &:hover {
       background-color: lightgray;
+    }
+  }
+
+  p {
+    padding: 8px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+      background-color: lightgray;
+      border-radius: 5px;
     }
   }
 

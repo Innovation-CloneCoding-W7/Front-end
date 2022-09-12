@@ -11,6 +11,7 @@ const OverlayMenu = () => {
     }
     return <OverlayMenuContainer $isMenuOpen={isMenuOpen}>
         <FaTimes onClick={timesClickHandler}/>
+        <p>Shop FAQ</p>
         <Link to="/login">로그인</Link>
     </OverlayMenuContainer>
 }
