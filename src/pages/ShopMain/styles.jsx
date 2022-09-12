@@ -30,8 +30,7 @@ const SwiperOverlay = styled.div`
     color: white;
     text-align: center;
     font-size: 1.5rem;
-    margin: 0;
-    margin-bottom: 30px;
+    margin: 0 0 50px 0;
   }
 
   button {
@@ -74,11 +73,19 @@ const ShowcaseItemOverlay = styled.div`
   }
 
   button {
-    border: none;
+    border: ${(props) => props.$isButtonBordered ? "3px solid black;" : "none;"};
     border-radius: 5px;
     padding: 10px;
     width: 250px;
     cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+      ${(props) => props.$isButtonBordered ? `
+        color: white;
+        background-color: black;
+      ` : null}
+    }
   }
 `;
 
