@@ -12,11 +12,9 @@ const ShopCatalogue = () => {
     return <ShopLayout>
         <ShopCatalogueContainer>
             <ShopCatalogueHeader title={title}/>
+            <ShopCatalogueBody/>
+            <ShopFooter/>
         </ShopCatalogueContainer>
-        <ShopCatalogueBody>
-
-        </ShopCatalogueBody>
-        <ShopFooter/>
     </ShopLayout>
 }
 
