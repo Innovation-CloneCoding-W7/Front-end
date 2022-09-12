@@ -31,7 +31,7 @@ const ShopNavigationBar = ({isNavigationBarAlwaysOpen}) => {
         </ShopNavigationBarCenter>
         <ShopNavigationBarRight>
             <FaSearch/>
-            <Link to="/shop/cart">
+            <Link to="/cart">
                 <FaShoppingCart/>
             </Link>
             <p onClick={menuClickHandler}>메뉴</p>

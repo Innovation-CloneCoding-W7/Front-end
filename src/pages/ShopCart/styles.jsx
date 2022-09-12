@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const ShopCartContainer = styled.div`
-  padding: 50px;
-  margin-top: 50px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;

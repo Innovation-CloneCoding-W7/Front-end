@@ -4,6 +4,7 @@ const ShopFooterContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 20px auto;
+  padding-bottom: 20px;
 
   p {
     color: gray;
