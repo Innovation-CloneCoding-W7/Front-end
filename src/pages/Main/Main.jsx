@@ -6,34 +6,34 @@ import ModelY from "./pages/ModelY";
 import ModelX from "./pages/ModelX";
 import SolarPanels from "./pages/SolarPanels";
 import ShopFooter from "../../components/ShopFooter/ShopFooter";
-import Accesaries from "./pages/Accesaries";
+import Accessories from "./pages/Accessories";
 
 const Main = () => {
-  return (
-    <>
-      <MainHeader />
-      <Stdiv2>
-        <Sth1>Model 3</Sth1>
-        <Stspan>
-          Order Online for <Sta href="/">Touchless Delivery</Sta>
-        </Stspan>
-      </Stdiv2>
-      <Stdiv>
-        <Stbutton1>Custom order</Stbutton1>
-        <Stbutton2>Existing inventory</Stbutton2>
-      </Stdiv>
-      <Stdiv3>
-        <DownArrow src="/img/DownArrow.png" />
-      </Stdiv3>
-      <Model3 />
-      <ModelY />
-      <ModelS />
-      <ModelX />
-      <SolarPanels />
-      <Accesaries />
-      <ShopFooter />
-    </>
-  );
+    return (
+        <>
+            <MainHeader/>
+            <Stdiv2>
+                <Sth1>Model 3</Sth1>
+                <Stspan>
+                    Order Online for <Sta href="/">Touchless Delivery</Sta>
+                </Stspan>
+            </Stdiv2>
+            <Stdiv>
+                <Stbutton1>Custom order</Stbutton1>
+                <Stbutton2>Existing inventory</Stbutton2>
+            </Stdiv>
+            <Stdiv3>
+                <DownArrow src="/img/DownArrow.png"/>
+            </Stdiv3>
+            <Model3/>
+            <ModelY/>
+            <ModelS/>
+            <ModelX/>
+            <SolarPanels/>
+            <Accessories/>
+            <ShopFooter/>
+        </>
+    );
 };
 
 const Stdiv3 = styled.div`
