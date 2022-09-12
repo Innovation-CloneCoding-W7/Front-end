@@ -7,11 +7,12 @@ const OverlayMenuContainer = styled.div`
   padding: 30px;
   z-index: 2;
   top: 0;
-  right: 300px;
-  transform: translateX(300px);
+  right: 0;
+  transform: translateX(${(props) => props.$isMenuOpen ? `0` : `300`}px);
   width: 300px;
   display: flex;
   flex-direction: column;
+  transition: all 1s;
 
   svg {
     align-self: end;
@@ -36,24 +37,6 @@ const OverlayMenuContainer = styled.div`
     &:hover {
       background-color: lightgray;
       border-radius: 5px;
-    }
-  }
-
-  @keyframes slideIn {
-    from {
-      right: 0;
-    }
-    to {
-      right: 300px;
-    }
-  }
-
-  @keyframes slideOut {
-    from {
-      right: 300px;
-    }
-    to {
-      right: 0;
     }
   }
 `;
