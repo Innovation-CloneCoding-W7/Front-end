@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ShopCatalogueContainer = styled.div`
   padding: 50px;
-  margin-top: 50px;
+  padding-top: 100px;
 `;
 
 const ShopCatalogueHeaderContainer = styled.div`

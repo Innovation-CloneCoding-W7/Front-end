@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] Shop FAQ.">
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBodyEmpty.jsx" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] yarn install.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopFooter/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopFooter/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopLayout/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopLayout/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/GlobalStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/GlobalStyle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Router.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662963091058</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[Add] 빈 카트 페이지 추가.">
+      <created>1662964390926</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662964390926</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[Add] yarn install.">
+      <created>1662964665069</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662964665069</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,8 +347,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Fix] .gitignore" />
-    <MESSAGE value="[Add] 파일 구조 예시." />
     <MESSAGE value="[Add] 라우터 설정." />
     <MESSAGE value="[Add] 리덕스랑 툴킷 추가." />
     <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
@@ -353,6 +370,8 @@
     <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
     <MESSAGE value="[Add] 샵 카트 페이지 추가." />
     <MESSAGE value="[Add] Shop FAQ." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] Shop FAQ." />
+    <MESSAGE value="[Add] 빈 카트 페이지 추가." />
+    <MESSAGE value="[Add] yarn install." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] yarn install." />
   </component>
 </project>
