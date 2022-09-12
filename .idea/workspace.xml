@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Fix] Fix minor issues.">
-<<<<<<< HEAD
-=======
-      <change afterPath="$PROJECT_DIR$/public/assets/ShopMain/Cyberwhistle.png" afterDir="false" />
+    <list default="true" id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="[Add] 샵 메인페이지 사이버휘슬 파트 추가.">
+      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/GlobalStates.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMainShowcase.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShowcaseItem.jsx" afterDir="false" />
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +85,8 @@
       <workItem from="1662687853673" duration="1038000" />
       <workItem from="1662688896933" duration="2446000" />
       <workItem from="1662695816823" duration="17214000" />
-<<<<<<< HEAD
-      <workItem from="1662718962577" duration="6759000" />
-=======
       <workItem from="1662718962577" duration="7953000" />
-      <workItem from="1662792065550" duration="2374000" />
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
+      <workItem from="1662792065550" duration="4897000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -226,9 +221,6 @@
       <option name="project" value="LOCAL" />
       <updated>1662787661385</updated>
     </task>
-<<<<<<< HEAD
-    <option name="localTasksCounter" value="20" />
-=======
     <task id="LOCAL-00020" summary="[Fix] Fix minor issues.">
       <created>1662787789434</created>
       <option name="number" value="00020" />
@@ -236,8 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662787789434</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
->>>>>>> f131fbf7ada22d9de231fb6aa5f00efe84c21316
+    <task id="LOCAL-00021" summary="[Add] 샵 메인페이지 사이버휘슬 파트 추가.">
+      <created>1662940814327</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662940814327</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +271,7 @@
     <MESSAGE value="[Delete] 쓸모 없는 파일들 정리." />
     <MESSAGE value="[Fix] img alt 수정." />
     <MESSAGE value="[Fix] Fix minor issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Fix minor issues." />
+    <MESSAGE value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
   </component>
 </project>
