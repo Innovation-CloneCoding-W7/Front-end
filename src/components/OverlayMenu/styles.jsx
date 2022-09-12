@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const OverlayMenuContainer = styled.div`
-  position: absolute;
+  position: fixed;
   background-color: white;
   height: 100vh;
   padding: 30px;
