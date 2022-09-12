@@ -1,61 +1,62 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Header from "../../components/Header/Header";
 
-import { useState } from "react";
-import UseLogin from "../../Hooks/UseLogin";
+import {useState} from "react";
+import UseLogin from "../../Hooks/useLogin";
+
 const LogIn = () => {
-  const [nickname, setNickname] = useState("");
-  const [password, setPassword] = useState("");
+    const [nickname, setNickname] = useState("");
+    const [password, setPassword] = useState("");
 
-  const onChangeNickname = (e) => {
-    setNickname(e.target.value);
-  };
-  const onChangePassword = (e) => {
-    setPassword(e.target.value);
-  };
+    const onChangeNickname = (e) => {
+        setNickname(e.target.value);
+    };
+    const onChangePassword = (e) => {
+        setPassword(e.target.value);
+    };
 
-  const onSubmitHandler = () => {
-    UseLogin({ nickname, password });
-  };
+    const onSubmitHandler = () => {
+        UseLogin({nickname, password});
+    };
 
-  return (
-    <>
-      <Header></Header>
-      <Container1>
-        <Container3>
-          <h1>Sign In</h1>
-          <StForm>
-            <StDiv>
-              <StSpan1>Email Address</StSpan1>
-            </StDiv>
-            <StInput
-              onChange={(e) => {
-                onChangeNickname(e);
-              }}></StInput>
-            <StDiv>
-              <StSpan1>Password</StSpan1>
-            </StDiv>
-            <StInput
-              onChange={(e) => {
-                onChangePassword(e);
-              }}></StInput>
-            <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
-          </StForm>
-          <StForm>
-            <StDiv2>
-              <StSpan2>
-                <Sthr></Sthr> OR <Sthr></Sthr>
-              </StSpan2>
-            </StDiv2>
-            <Link to="/signup">
-              <StButton2>CREATE ACCOUNT</StButton2>
-            </Link>
-          </StForm>
-        </Container3>
-      </Container1>
-    </>
-  );
+    return (
+        <>
+            <Header></Header>
+            <Container1>
+                <Container3>
+                    <h1>Sign In</h1>
+                    <StForm>
+                        <StDiv>
+                            <StSpan1>Email Address</StSpan1>
+                        </StDiv>
+                        <StInput
+                            onChange={(e) => {
+                                onChangeNickname(e);
+                            }}></StInput>
+                        <StDiv>
+                            <StSpan1>Password</StSpan1>
+                        </StDiv>
+                        <StInput
+                            onChange={(e) => {
+                                onChangePassword(e);
+                            }}></StInput>
+                        <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
+                    </StForm>
+                    <StForm>
+                        <StDiv2>
+                            <StSpan2>
+                                <Sthr></Sthr> OR <Sthr></Sthr>
+                            </StSpan2>
+                        </StDiv2>
+                        <Link to="/signup">
+                            <StButton2>CREATE ACCOUNT</StButton2>
+                        </Link>
+                    </StForm>
+                </Container3>
+            </Container1>
+        </>
+    );
 };
 
 export default LogIn;
@@ -103,6 +104,7 @@ export const StInput = styled.input`
   margin: 0px auto;
   background-color: #f5f5f5;
   transition: 0.3s ease-in-out;
+
   &:focus {
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0.3);
@@ -153,6 +155,7 @@ export const StButton = styled.button`
   font-family: "text";
   font-size: 12px;
   transition: 0.3s ease-in-out;
+
   &:hover {
     cursor: pointer;
     background-color: #3457b2;
@@ -171,6 +174,7 @@ export const StButton2 = styled.button`
   font-family: "text";
   font-size: 12px;
   transition: 0.3s ease-in-out;
+
   &:hover {
     cursor: pointer;
     background-color: black;

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 푸터가 딸려올라오는 문제 수정.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/Accesaries.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/Accessories.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/pages/Accesaries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/pages/Accessories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] Typos.">
+      <change beforePath="$PROJECT_DIR$/src/Hooks/UseLogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/UseSignup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663025896240</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[Fix] Typos.">
+      <created>1663026753159</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1663026753159</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +360,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] 리덕스랑 툴킷 추가." />
     <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
     <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
     <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
@@ -379,6 +384,7 @@
     <MESSAGE value="[Add] 빈 카트 페이지 추가." />
     <MESSAGE value="[Add] yarn install." />
     <MESSAGE value="[Fix] 푸터가 딸려올라오는 문제 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 푸터가 딸려올라오는 문제 수정." />
+    <MESSAGE value="[Fix] Typos." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Typos." />
   </component>
 </project>
