@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 샵 메인 컨테이너 블러 효과 추가.">
-      <change beforePath="$PROJECT_DIR$/src/components/ShopLayout/ShopLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopLayout/ShopLayout.jsx" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogue.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogue.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662946426161</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정.">
+      <created>1662946585015</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946585015</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +304,7 @@
     <MESSAGE value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
     <MESSAGE value="[Fix] 오버레이 메뉴 고침." />
     <MESSAGE value="[Fix] 샵 메인 컨테이너 블러 효과 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 샵 메인 컨테이너 블러 효과 추가." />
+    <MESSAGE value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
   </component>
 </project>
