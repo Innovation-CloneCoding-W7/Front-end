@@ -2,7 +2,23 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
+import { useState } from "react";
+
 const LogIn = () => {
+  const [nickname, setNickname] = useState("");
+  const [password, setPassword] = useState("");
+
+  const onChangeNickname = (e) => {
+    setNickname(e.target.value);
+  };
+  const onChangePassword = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const onSubmitHandler = () => {
+    console.log(nickname, password);
+  };
+
   return (
     <>
       <Header></Header>
@@ -13,12 +29,18 @@ const LogIn = () => {
             <StDiv>
               <StSpan1>Email Address</StSpan1>
             </StDiv>
-            <StInput></StInput>
+            <StInput
+              onChange={(e) => {
+                onChangeNickname(e);
+              }}></StInput>
             <StDiv>
               <StSpan1>Password</StSpan1>
             </StDiv>
-            <StInput></StInput>
-            <StButton>Log In</StButton>
+            <StInput
+              onChange={(e) => {
+                onChangePassword(e);
+              }}></StInput>
+            <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
           </StForm>
           <StForm>
             <StDiv2>

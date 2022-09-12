@@ -7,7 +7,29 @@ import { StInput } from "../Login/Login";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
+import { useState } from "react";
+import instance from "../../shared/Requests";
+
 const SignUp = () => {
+  const [name, setName] = useState("");
+  const [nickname, setNickname] = useState("");
+  const [password, setPassword] = useState("");
+
+  const onChangeName = (e) => {
+    setName(e.target.value);
+  };
+  const onChangeNickname = (e) => {
+    setNickname(e.target.value);
+  };
+  const onChangePassword = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const onSubmitHandler = () => {
+    data = (name, nickname, password);
+    instance.post("주소", data);
+  };
+
   return (
     <>
       <Header />
@@ -18,17 +40,31 @@ const SignUp = () => {
             <StDiv>
               <StSpan1>Name</StSpan1>
             </StDiv>
-            <StInput></StInput>
+            <StInput
+              onChange={(e) => {
+                onChangeName(e);
+              }}></StInput>
             <StDiv>
-              <StSpan1>Email Address</StSpan1>
+              <StSpan1>nickname Address</StSpan1>
             </StDiv>
-            <StInput></StInput>
+            <StInput
+              onChange={(e) => {
+                onChangeNickname(e);
+              }}></StInput>
             <StDiv>
               <StSpan1>Password</StSpan1>
             </StDiv>
-            <StInput></StInput>
+            <StInput
+              onChange={(e) => {
+                onChangePassword(e);
+              }}></StInput>
           </StForm>
-          <StButton>CREATE ACCOUNT</StButton>
+          <StButton
+            onClick={() => {
+              onSubmitHandler();
+            }}>
+            CREATE ACCOUNT
+          </StButton>
           <StSpan2>OR</StSpan2>
           <Link to="/login">
             <StButton2>Sign in</StButton2>

@@ -26,8 +26,8 @@ const Main = () => {
         <DownArrow src="/img/DownArrow.png" />
       </Stdiv3>
       <Model3 />
-      <ModelS />
       <ModelY />
+      <ModelS />
       <ModelX />
       <SolarPanels />
       <Accesaries />
