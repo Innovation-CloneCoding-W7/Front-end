@@ -8,6 +8,7 @@ import {Link} from "react-router-dom";
 import {FaSearch, FaShoppingCart} from "react-icons/fa";
 import {useContext} from "react";
 import GlobalState from "../../shared/GlobalStates";
+import OverlayMenu from "../OverlayMenu/OverlayMenu";
 
 const ShopNavigationBar = () => {
     let {setIsMenuOpen} = useContext(GlobalState);
@@ -33,6 +34,7 @@ const ShopNavigationBar = () => {
             <FaShoppingCart/>
             <p onClick={menuClickHandler}>메뉴</p>
         </ShopNavigationBarRight>
+        <OverlayMenu/>
     </ShopNavigationBarContainer>
 }
 

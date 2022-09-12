@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 오버레이 메뉴 고침.">
-      <change afterPath="$PROJECT_DIR$/src/components/ShopLayout/ShopLayout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ShopLayout/styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogue.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/ShopMain.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Router.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662943856490</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662945716341</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662945716341</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
