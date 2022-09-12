@@ -7,12 +7,15 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 import { useState } from "react";
-import instance from "../../shared/Requests";
+import UseSignup from "../../Hooks/UseSignup";
 
 const SignUp = () => {
   const [name, setName] = useState("");
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
+
+  const regNickname = "[a-zA-Z\\d]*${3,12}";
+  const regPassword = "[a-z\\d]*${3,32}";
 
   const onChangeName = (e) => {
     setName(e.target.value);
@@ -24,11 +27,11 @@ const SignUp = () => {
     setPassword(e.target.value);
   };
 
-  const onSubmitHandler = () => {
-    const data = (name, nickname, password);
-    instance.post("주소", data);
+  const onSubmitHandler = async () => {
+    // await UseSignup({ name, nickname, password });
+    // !regNickname.test(nickname) ? alert("이메일 정규식 규칙 위반!") : null;
+    // !regPassword.test(nickname) ? alert("비밀번호 정규식 규칙 위반!") : null;
   };
-
   return (
     <>
       <Header />
@@ -44,7 +47,7 @@ const SignUp = () => {
                 onChangeName(e);
               }}></StInput>
             <StDiv>
-              <StSpan1>nickname Address</StSpan1>
+              <StSpan1>E-mail Address</StSpan1>
             </StDiv>
             <StInput
               onChange={(e) => {

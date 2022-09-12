@@ -1,9 +1,9 @@
 import { setCookie } from "../Cookie";
 import instance from "../shared/Requests";
 
-const UseLogin = (data) => {
+const UseSignup = (data) => {
   instance
-    .post("api/login", data)
+    .post("api/signup", data)
     .then((res) => {
       setCookie("auth_token", res.headers.authorization);
       setCookie("refresh_token", res.headers.refreshtoken);
@@ -13,4 +13,4 @@ const UseLogin = (data) => {
     });
 };
 
-export default UseLogin;
+export default UseSignup;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 import { useState } from "react";
-
+import UseLogin from "../../Hooks/UseLogin";
 const LogIn = () => {
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
@@ -16,7 +16,7 @@ const LogIn = () => {
   };
 
   const onSubmitHandler = () => {
-    console.log(nickname, password);
+    UseLogin({ nickname, password });
   };
 
   return (
