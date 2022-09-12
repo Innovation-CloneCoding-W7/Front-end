@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 const ShopNavigationBarContainer = styled.div`
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
-  width: 100%;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 100%;
   padding: 20px;
   z-index: 2;
   display: flex;

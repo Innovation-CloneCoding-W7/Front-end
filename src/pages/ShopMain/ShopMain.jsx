@@ -3,16 +3,11 @@ import ShopMainCarousel from "./ShopMainCarousel";
 import ShopMainShowcase from "./ShopMainShowcase";
 import ShopFooter from "../../components/ShopFooter/ShopFooter";
 import ShopNavigationBar from "../../components/ShopNavigationBar/ShopNavigationBar";
-import {useState} from "react";
 import OverlayMenu from "../../components/OverlayMenu/OverlayMenu";
-import GlobalState from "../../shared/GlobalStates";
+import ShopLayout from "../../components/ShopLayout/ShopLayout";
 
 const ShopMain = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    return <GlobalState.Provider value={{
-        isMenuOpen,
-        setIsMenuOpen
-    }}>
+    return <ShopLayout>
         <ShopMainContainer>
             <ShopNavigationBar/>
             <ShopMainCarousel/>
@@ -20,7 +15,7 @@ const ShopMain = () => {
             <ShopFooter/>
             <OverlayMenu/>
         </ShopMainContainer>
-    </GlobalState.Provider>
+    </ShopLayout>
 }
 
 export default ShopMain;
