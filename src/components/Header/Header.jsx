@@ -1,24 +1,24 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import styled from "styled-components";
 
 const Header = () => {
-  return (
-    <StHeader>
-      <StContainer>
-        <Modeldiv>
-          <Link to="/">
-            <StLogo src="/assets/Logo.png" />
-          </Link>
-        </Modeldiv>
-        <Modeldiv>
-          <StButton className="en-US">
-            <EarthImg className="logo" src="img/earth.png" />{" "}
-            <Stdiv>en-US</Stdiv>
-          </StButton>
-        </Modeldiv>
-      </StContainer>
-    </StHeader>
-  );
+    return (
+        <StHeader>
+            <StContainer>
+                <Modeldiv>
+                    <Link to="/">
+                        <StLogo src="/assets/Logo.png"/>
+                    </Link>
+                </Modeldiv>
+                <Modeldiv>
+                    <StButton className="en-US">
+                        <EarthImg className="logo" src="img/earth.png"/>{" "}
+                        <Stdiv>en-US</Stdiv>
+                    </StButton>
+                </Modeldiv>
+            </StContainer>
+        </StHeader>
+    );
 };
 
 export default Header;
@@ -26,9 +26,7 @@ export default Header;
 export const StContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 15px 30px;
 `;
 export const StHeader = styled.header`
   position: fixed;
@@ -66,6 +64,7 @@ const StButton = styled.button`
   margin-top: 3px;
   background-color: transparent;
   float: right;
+
   &:hover {
     cursor: pointer;
     background-color: #ececec4d;

@@ -5,9 +5,7 @@ import {StDiv} from "../Login/Login";
 import {StInput} from "../Login/Login";
 import {Link} from "react-router-dom";
 import Header from "../../components/Header/Header";
-
 import {useState} from "react";
-import useSignup from "../../Hooks/useSignup";
 
 const SignUp = () => {
     const [name, setName] = useState("");

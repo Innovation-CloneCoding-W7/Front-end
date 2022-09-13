@@ -101,7 +101,7 @@ export const StInput = styled.input`
   padding: 10px 20px;
   border-radius: 20px;
   border: 2px solid transparent;
-  margin: 0px auto;
+  margin: 0 auto;
   background-color: #f5f5f5;
   transition: 0.3s ease-in-out;
 
@@ -114,7 +114,7 @@ export const StInput = styled.input`
 export const StSpan1 = styled.span`
   grid-area: label-text;
   color: #5c5d61;
-  font-size: 30;
+  font-size: 30px;
   line-height: 1.414;
   font-weight: 500;
   display: inline-block;
@@ -152,7 +152,6 @@ export const StButton = styled.button`
   margin: 20px auto;
   background-color: #3d69e1;
   color: white;
-  font-family: "text";
   font-size: 12px;
   transition: 0.3s ease-in-out;
 
@@ -168,10 +167,9 @@ export const StButton2 = styled.button`
   padding: 10px 20px;
   border-radius: 20px;
   border: 3px solid black;
-  margin: 0px 27px;
+  margin: 0 27px;
   background-color: white;
   color: black;
-  font-family: "text";
   font-size: 12px;
   transition: 0.3s ease-in-out;
 
@@ -183,7 +181,6 @@ export const StButton2 = styled.button`
 `;
 
 export const StText = styled.span`
-  font-family: "text";
   color: rgba(0, 0, 0, 0.7);
   font-size: 15px;
 `;
