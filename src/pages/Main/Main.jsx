@@ -99,7 +99,6 @@ const Sth1 = styled.h1`
 
 const Stspan = styled.div`
   align-content: center;
-  font-family: text;
   font-weight: lighter;
   animation: onMountText 2s;
   animation-fill-mode: forwards;

@@ -65,7 +65,7 @@ const ShowcaseItemOverlay = styled.div`
   align-items: center;
 
   h2 {
-    color: ${(props) => (props.$isTitleDark ? "black" : "white")};
+    color: ${(props) => props.$isTitleDark ? "black;" : "white;"};
     font-weight: normal;
     font-size: 2rem;
     margin-bottom: 20px;
@@ -120,7 +120,7 @@ const ShowcaseHalfItemOverlay = styled.div`
   align-items: center;
 
   h2 {
-    color: ${(props) => (props.$isTitleDark ? "black" : "white")};
+    color: ${(props) => props.$isTitleDark ? "black;" : "white;"};
     font-weight: normal;
     font-size: 1.5rem;
     margin-bottom: 10px;

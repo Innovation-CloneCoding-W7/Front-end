@@ -14,7 +14,7 @@ const OverlayMenuContainer = styled.div`
   flex-direction: column;
   align-items: start;
   transition: all 1s;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 
   svg {
     align-self: end;
