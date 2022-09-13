@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] Typos.">
-      <change beforePath="$PROJECT_DIR$/src/Hooks/UseLogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/UseSignup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" afterDir="false" />
     </list>
@@ -341,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663026753159</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="[Fix] Typos.">
+      <created>1663027062193</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663027062193</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
