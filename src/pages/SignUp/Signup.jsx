@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 import {useState} from "react";
-import UseSignup from "../../Hooks/useSignup";
+import useSignup from "../../Hooks/useSignup";
 
 const SignUp = () => {
     const [name, setName] = useState("");
@@ -28,7 +28,7 @@ const SignUp = () => {
     };
 
     const onSubmitHandler = async () => {
-        // await UseSignup({ name, nickname, password });
+        // await useSignup({ name, nickname, password });
         // !regNickname.test(nickname) ? alert("이메일 정규식 규칙 위반!") : null;
         // !regPassword.test(nickname) ? alert("비밀번호 정규식 규칙 위반!") : null;
     };
