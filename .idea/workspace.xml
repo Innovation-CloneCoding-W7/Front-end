@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] Typos.">
-      <change afterPath="$PROJECT_DIR$/src/redux/modules/individualProductSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/modules/productSlice.js" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] getProductSlice &amp; getIndividualProductSlice.">
+      <change afterPath="$PROJECT_DIR$/src/redux/modules/cartSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/config/configStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/config/configStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663027884893</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="[Add] getProductSlice &amp; getIndividualProductSlice.">
+      <created>1663029547482</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663029547482</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +381,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
     <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
     <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
     <MESSAGE value="[Add] 의류 쇼케이스 추가." />
@@ -402,6 +405,7 @@
     <MESSAGE value="[Add] yarn install." />
     <MESSAGE value="[Fix] 푸터가 딸려올라오는 문제 수정." />
     <MESSAGE value="[Fix] Typos." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Typos." />
+    <MESSAGE value="[Add] getProductSlice &amp; getIndividualProductSlice." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] getProductSlice &amp; getIndividualProductSlice." />
   </component>
 </project>
