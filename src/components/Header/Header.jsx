@@ -11,9 +11,9 @@ const Header = () => {
           </Link>
         </Modeldiv>
         <Modeldiv>
-          <StButton className="en-US">
+          <StButton className="ko-KR">
             <EarthImg className="logo" src="img/earth.png" />{" "}
-            <Stdiv>en-US</Stdiv>
+            <Stdiv>ko-KR</Stdiv>
           </StButton>
         </Modeldiv>
       </StContainer>

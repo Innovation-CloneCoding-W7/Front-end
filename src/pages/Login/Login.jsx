@@ -1,62 +1,61 @@
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
-import {useState} from "react";
-import useLogin from "../../Hooks/useLogin";
-
+import { useState } from "react";
+import UseLogin from "../../utils/UseLogin";
 const LogIn = () => {
-    const [nickname, setNickname] = useState("");
-    const [password, setPassword] = useState("");
+  const [nickname, setNickname] = useState("");
+  const [password, setPassword] = useState("");
 
-    const onChangeNickname = (e) => {
-        setNickname(e.target.value);
-    };
-    const onChangePassword = (e) => {
-        setPassword(e.target.value);
-    };
+  const onChangeNickname = (e) => {
+    setNickname(e.target.value);
+  };
+  const onChangePassword = (e) => {
+    setPassword(e.target.value);
+  };
 
-    const onSubmitHandler = () => {
-        useLogin({nickname, password});
-    };
+  const onSubmitHandler = () => {
+    UseLogin({ nickname, password });
+  };
 
-    return (
-        <>
-            <Header></Header>
-            <Container1>
-                <Container3>
-                    <h1>Sign In</h1>
-                    <StForm>
-                        <StDiv>
-                            <StSpan1>Email Address</StSpan1>
-                        </StDiv>
-                        <StInput
-                            onChange={(e) => {
-                                onChangeNickname(e);
-                            }}></StInput>
-                        <StDiv>
-                            <StSpan1>Password</StSpan1>
-                        </StDiv>
-                        <StInput
-                            onChange={(e) => {
-                                onChangePassword(e);
-                            }}></StInput>
-                        <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
-                    </StForm>
-                    <StForm>
-                        <StDiv2>
-                            <StSpan2>
-                                <Sthr></Sthr> OR <Sthr></Sthr>
-                            </StSpan2>
-                        </StDiv2>
-                        <Link to="/signup">
-                            <StButton2>CREATE ACCOUNT</StButton2>
-                        </Link>
-                    </StForm>
-                </Container3>
-            </Container1>
-        </>
-    );
+  return (
+    <>
+      <Header></Header>
+      <Container1>
+        <Container3>
+          <h1>Sign In</h1>
+          <StForm>
+            <StDiv>
+              <StSpan1>Email Address</StSpan1>
+            </StDiv>
+            <StInput
+              onChange={(e) => {
+                onChangeNickname(e);
+              }}></StInput>
+            <StDiv>
+              <StSpan1>Password</StSpan1>
+            </StDiv>
+            <StInput
+              onChange={(e) => {
+                onChangePassword(e);
+              }}></StInput>
+            <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
+          </StForm>
+          <StForm>
+            <StDiv2>
+              <StSpan2>
+                <Sthr></Sthr> OR <Sthr></Sthr>
+              </StSpan2>
+            </StDiv2>
+            <Link to="/signup">
+              <StButton2>CREATE ACCOUNT</StButton2>
+            </Link>
+          </StForm>
+        </Container3>
+      </Container1>
+    </>
+  );
 };
 
 export default LogIn;

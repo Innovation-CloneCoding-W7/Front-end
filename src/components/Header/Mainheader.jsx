@@ -23,9 +23,9 @@ const MainHeader = () => {
             <Modelbutton>Shop</Modelbutton>
           </Link>
           <Link to="/login">
-            <Modelbutton>Account</Modelbutton>
+            <Modelbutton>계정</Modelbutton>
           </Link>
-          <Modelbutton>Menu</Modelbutton>
+          <Modelbutton>메뉴</Modelbutton>
         </Modeldiv3>
       </StContainer>
     </StHeader>
@@ -56,7 +56,6 @@ const Modeldiv2 = styled.div`
 
 const Modeldiv3 = styled.div`
   width: 350px;
-  align-items: center;
 `;
 
 const StLogo = styled.img`
@@ -67,11 +66,12 @@ const StLogo = styled.img`
 `;
 
 const Modelbutton = styled.button`
-  margin-left: 30px;
+  margin-right: 30px;
   border-color: transparent;
   background-color: transparent;
   padding: 5px;
   letter-spacing: 1.5px;
+  float: right;
   :hover {
     background-color: #7a7a7a40;
     opacity: 100%;
