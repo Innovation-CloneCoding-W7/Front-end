@@ -5,7 +5,6 @@ import Header from "../../components/Header/Header";
 import { useState } from "react";
 import UseLogin from "../../utils/UseLogin";
 const LogIn = () => {
-<<<<<<< HEAD
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
 
@@ -19,21 +18,6 @@ const LogIn = () => {
   const onSubmitHandler = () => {
     UseLogin({ nickname, password });
   };
-=======
-    const [nickname, setNickname] = useState("");
-    const [password, setPassword] = useState("");
-    const loginHook = useLogin();
-    const onChangeNickname = (e) => {
-        setNickname(e.target.value);
-    };
-    const onChangePassword = (e) => {
-        setPassword(e.target.value);
-    };
-
-    const onSubmitHandler = () => {
-        loginHook({nickname, password})
-    };
->>>>>>> cf1c86802218f8f2c082650aac1d73272b427ab8
 
   return (
     <>

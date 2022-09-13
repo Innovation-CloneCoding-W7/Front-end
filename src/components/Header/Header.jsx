@@ -1,8 +1,7 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Header = () => {
-<<<<<<< HEAD
   return (
     <StHeader>
       <StContainer>
@@ -20,25 +19,6 @@ const Header = () => {
       </StContainer>
     </StHeader>
   );
-=======
-    return (
-        <StHeader>
-            <StContainer>
-                <Modeldiv>
-                    <Link to="/">
-                        <StLogo src="/assets/Logo.png"/>
-                    </Link>
-                </Modeldiv>
-                <Modeldiv>
-                    <StButton className="en-US">
-                        <EarthImg className="logo" src="img/earth.png"/>{" "}
-                        <Stdiv>en-US</Stdiv>
-                    </StButton>
-                </Modeldiv>
-            </StContainer>
-        </StHeader>
-    );
->>>>>>> cf1c86802218f8f2c082650aac1d73272b427ab8
 };
 
 export default Header;
