@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] Typos.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 소소한 수정.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useLogin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useSignup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jinwookkim/Desktop/Sparta/React/teslaclone/public/assets/ShopMain",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinwookkim/Desktop/Sparta/React/teslaclone/src/redux/modules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/modules" />
       <recent name="$PROJECT_DIR$/public/assets/ShopMain" />
       <recent name="$PROJECT_DIR$/public/Carousel" />
       <recent name="$PROJECT_DIR$/public" />
@@ -349,7 +352,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663027062193</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="[Fix] Typos.">
+      <created>1663027884893</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1663027884893</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[Add] getProductSlice &amp; getIndividualProductSlice.">
+      <created>1663029547482</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663029547482</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[Add] cartSlice.">
+      <created>1663030050215</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663030050215</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[Add] 디스패처 연결.">
+      <created>1663031694797</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663031694797</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[Fix] 소소한 수정.">
+      <created>1663032354003</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663032354003</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,9 +406,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] Shop 메인 페이지 슬라이더 추가." />
-    <MESSAGE value="[Add] 슬라이더 오버레이 추가." />
-    <MESSAGE value="[Add] 메인 페이지 쇼케이스 추가." />
     <MESSAGE value="[Add] 의류 쇼케이스 추가." />
     <MESSAGE value="[Add] 샵내브바 왼쪽 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 중앙 부분 추가." />
@@ -384,7 +419,6 @@
     <MESSAGE value="[Fix] 오버레이 메뉴 고침." />
     <MESSAGE value="[Fix] 샵 메인 컨테이너 블러 효과 추가." />
     <MESSAGE value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
-    <MESSAGE value="[Fix] 소소한 수정." />
     <MESSAGE value="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가." />
     <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
     <MESSAGE value="[Add] 샵 카트 페이지 추가." />
@@ -393,6 +427,10 @@
     <MESSAGE value="[Add] yarn install." />
     <MESSAGE value="[Fix] 푸터가 딸려올라오는 문제 수정." />
     <MESSAGE value="[Fix] Typos." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Typos." />
+    <MESSAGE value="[Add] getProductSlice &amp; getIndividualProductSlice." />
+    <MESSAGE value="[Add] cartSlice." />
+    <MESSAGE value="[Add] 디스패처 연결." />
+    <MESSAGE value="[Fix] 소소한 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 소소한 수정." />
   </component>
 </project>

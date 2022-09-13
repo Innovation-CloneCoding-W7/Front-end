@@ -5,9 +5,13 @@ import { StDiv } from "../Login/Login";
 import { StInput } from "../Login/Login";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
+<<<<<<< HEAD
 
 import { useState } from "react";
 import UseSignup from "../../utils/UseSignup";
+=======
+import {useState} from "react";
+>>>>>>> cf1c86802218f8f2c082650aac1d73272b427ab8
 
 const SignUp = () => {
   const [name, setName] = useState("");
