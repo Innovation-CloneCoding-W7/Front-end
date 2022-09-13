@@ -15,7 +15,7 @@ const ShopCatalogue = () => {
     const dispatcher = useDispatch();
     useEffect(() => {
         dispatcher(getProductsThunk(category));
-    }, [dispatcher])
+    }, [dispatcher, category])
     const title = categoryMapper[category];
     return <ShopLayout>
         <ShopCatalogueContainer>
