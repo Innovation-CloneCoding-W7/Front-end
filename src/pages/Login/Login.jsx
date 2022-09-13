@@ -8,7 +8,7 @@ import useLogin from "../../Hooks/useLogin";
 const LogIn = () => {
     const [nickname, setNickname] = useState("");
     const [password, setPassword] = useState("");
-
+    const loginHook = useLogin();
     const onChangeNickname = (e) => {
         setNickname(e.target.value);
     };
@@ -17,7 +17,7 @@ const LogIn = () => {
     };
 
     const onSubmitHandler = () => {
-        useLogin({nickname, password});
+        loginHook({nickname, password})
     };
 
     return (
