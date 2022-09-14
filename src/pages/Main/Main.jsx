@@ -9,31 +9,31 @@ import ShopFooter from "../../components/ShopFooter/ShopFooter";
 import Accessories from "./pages/Accessories";
 
 const Main = () => {
-    return (
-        <>
-            <MainHeader/>
-            <Stdiv2>
-                <Sth1>Model 3</Sth1>
-                <Stspan>
-                    Order Online for <Sta href="/">Touchless Delivery</Sta>
-                </Stspan>
-            </Stdiv2>
-            <Stdiv>
-                <Stbutton1>Custom order</Stbutton1>
-                <Stbutton2>Existing inventory</Stbutton2>
-            </Stdiv>
-            <Stdiv3>
-                <DownArrow src="/img/DownArrow.png"/>
-            </Stdiv3>
-            <Model3/>
-            <ModelY/>
-            <ModelS/>
-            <ModelX/>
-            <SolarPanels/>
-            <Accessories/>
-            <ShopFooter/>
-        </>
-    );
+  return (
+    <>
+      <MainHeader />
+      <Stdiv2>
+        <Sth1>Model 3</Sth1>
+        <Stspan>
+          Order Online for <Sta href="/">Touchless Delivery</Sta>
+        </Stspan>
+      </Stdiv2>
+      <Stdiv>
+        <Stbutton1>Custom order</Stbutton1>
+        <Stbutton2>Existing inventory</Stbutton2>
+      </Stdiv>
+      <Stdiv3>
+        <DownArrow src="/img/DownArrow.png" />
+      </Stdiv3>
+      <Model3 />
+      <ModelY />
+      <ModelS />
+      <ModelX />
+      <SolarPanels />
+      <Accessories />
+      <ShopFooter />
+    </>
+  );
 };
 
 const Stdiv3 = styled.div`
@@ -78,6 +78,7 @@ const Stbutton1 = styled.button`
   color: white;
   margin-right: 24px;
   border-color: transparent;
+  border-radius: 5px;
   letter-spacing: 1px;
   background-color: rgba(23, 26, 32, 0.8);
 `;
@@ -88,6 +89,7 @@ const Stbutton2 = styled.button`
   margin-right: 24px;
   letter-spacing: 1px;
   border-color: transparent;
+  border-radius: 5px;
   background-color: rgba(244, 244, 244, 0.65);
 `;
 

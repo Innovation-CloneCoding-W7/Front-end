@@ -1,12 +1,10 @@
-import { setCookie } from "../Cookie";
 import instance from "../shared/Requests";
 
 const UseSignup = (data) => {
-  return instance
-    .post("api/signup", data)
+  instance
+    .post("api/member/signup", data)
     .then((res) => {
-      setCookie("auth_token", res.headers.authorization);
-      setCookie("refresh_token", res.headers.refreshtoken);
+      console.log(res);
     })
     .catch((err) => {
       console.log(err);

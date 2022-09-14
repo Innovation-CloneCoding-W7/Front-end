@@ -15,7 +15,8 @@ const LogIn = () => {
     setPassword(e.target.value);
   };
 
-  const onSubmitHandler = () => {
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
     UseLogin({ nickname, password });
   };
 
@@ -37,10 +38,11 @@ const LogIn = () => {
               <StSpan1>Password</StSpan1>
             </StDiv>
             <StInput
+              type="password"
               onChange={(e) => {
                 onChangePassword(e);
               }}></StInput>
-            <StButton onClick={() => onSubmitHandler()}>Log In</StButton>
+            <StButton onClick={(e) => onSubmitHandler(e)}>Log In</StButton>
           </StForm>
           <StForm>
             <StDiv2>
@@ -113,7 +115,7 @@ export const StInput = styled.input`
 export const StSpan1 = styled.span`
   grid-area: label-text;
   color: #5c5d61;
-  font-size: 30px;
+  font-size: 15px;
   line-height: 1.414;
   font-weight: 500;
   display: inline-block;

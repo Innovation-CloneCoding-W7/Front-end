@@ -1,7 +1,9 @@
 import axios from "axios";
 
+export const BASE_API_URL = `http://43.201.36.176/`;
+
 const instance = axios.create({
-  baseURL: "요청보낼 서버 도메인", // 요청을 www.aa.com/user로 보낸다면, www.aa.com까지 기록
+  baseURL: BASE_API_URL, // 요청을 www.aa.com/user로 보낸다면, www.aa.com까지 기록
 });
 
 // 가지고 있는 토큰 넣어주기!
