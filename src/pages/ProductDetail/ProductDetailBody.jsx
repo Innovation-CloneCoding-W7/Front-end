@@ -25,7 +25,8 @@ const ProductDetailBody = ({data}) => {
     const addClickHandler = () => {
         const item = {
             productName: data.productName,
-            quantity
+            quantity,
+            maxQuantity: data.maxQuantity
         };
         dispatcher(addToCartThunk(item));
     }

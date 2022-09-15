@@ -10,7 +10,11 @@ const initialState = {
 
 export const getProductsThunk = createAsyncThunk("products/getProducts", async (categoryName, thunk) => {
     try {
-        const {data} = await instance.get("/product/category/" + categoryName);
+        const {data} = await instance.get("/product/category", {
+            params: {
+                name: categoryName
+            }
+        });
         if (!data.error) {
             return thunk.fulfillWithValue(data.data);
         }
