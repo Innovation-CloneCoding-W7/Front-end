@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 장바구니 상세 이미지 추가.">
-      <change afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/Invoice.jsx" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] Invoice 부분 추가.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShoppingCart/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +90,7 @@
       <workItem from="1662792065550" duration="4897000" />
       <workItem from="1663106387725" duration="12266000" />
       <workItem from="1663200582199" duration="15000" />
-      <workItem from="1663200624514" duration="23518000" />
-    </task>
-    <task id="LOCAL-00006" summary="[Add] 리덕스랑 툴킷 추가.">
-      <created>1662702801726</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1662702801726</updated>
+      <workItem from="1663200624514" duration="24575000" />
     </task>
     <task id="LOCAL-00007" summary="[Add] Shop 메인 페이지 슬라이더 추가.">
       <created>1662707647175</created>
@@ -437,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663228681728</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="[Add] Invoice 부분 추가.">
+      <created>1663229659542</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663229659542</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
     <MESSAGE value="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가." />
     <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
     <MESSAGE value="[Add] 샵 카트 페이지 추가." />
@@ -481,6 +478,7 @@
     <MESSAGE value="[Add] 장바구니 로직 구현." />
     <MESSAGE value="[Add] 장바구니 화면 구현." />
     <MESSAGE value="[Add] 장바구니 상세 이미지 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 장바구니 상세 이미지 추가." />
+    <MESSAGE value="[Add] Invoice 부분 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Invoice 부분 추가." />
   </component>
 </project>
