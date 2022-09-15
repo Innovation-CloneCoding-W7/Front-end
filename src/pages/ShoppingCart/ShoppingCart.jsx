@@ -8,7 +8,6 @@ const ShoppingCart = ({localCart}) => {
     const response = useSelector(state => state.productSliceReducer);
     const productNames = localCart.map(cart => cart.productName);
     const dispatcher = useDispatch();
-    console.dir(response);
     useEffect(() => {
         dispatcher(getSomeProductsThunk(productNames));
     }, [dispatcher]);
@@ -22,7 +21,10 @@ const ShoppingCart = ({localCart}) => {
         return <ShoppingCartContainer>
             <ShoppingCartList>
                 {Object.keys(response.data).map((key) => {
-                    return <ShoppingCartItem item={response.data[key]} key={response.data[key].productName}/>
+                    const productName = response.data[key].productName;
+                    const cartItem = localCart.find(cartItem => cartItem.productName === productName);
+                    return <ShoppingCartItem item={response.data[key]} key={productName} cartItem={cartItem}
+                    />
                 })}
             </ShoppingCartList>
             <ShoppingCartCheck>
