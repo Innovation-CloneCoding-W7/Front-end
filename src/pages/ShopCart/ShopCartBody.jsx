@@ -12,9 +12,13 @@ const ShopCartBody = () => {
     const cart = localStorage.getItem("cart");
     if (cart) {
         const localCart = JSON.parse(cart);
-        return <ShopCartBodyContainer>
-            <ShoppingCart localCart={localCart}/>
-        </ShopCartBodyContainer>
+        if (localCart) {
+            return <ShopCartBodyContainer>
+                <ShoppingCart localCart={localCart}/>
+            </ShopCartBodyContainer>
+        } else {
+            return <div>Loading...</div>
+        }
     } else {
         return <ShopCartBodyContainer>
             <ShopCartBodyEmpty/>

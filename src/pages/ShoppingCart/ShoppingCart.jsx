@@ -19,9 +19,10 @@ const ShoppingCart = ({localCart}) => {
         return <div>{response.error}</div>
     }
     if (response.data) {
+        const responseData = response.data
         const subtotal = localCart.reduce((previous, cartItem) => {
             const productName = cartItem.productName;
-            const targetItem = response.data.find(item => item.productName === productName);
+            const targetItem = responseData.find(item => item.productName === productName);
             const price = targetItem.price;
             return previous + price * cartItem.quantity;
         }, 0);
