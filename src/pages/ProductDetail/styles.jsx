@@ -26,6 +26,7 @@ const ProductDetailBodyContainer = styled.div`
   }
 
   button {
+    margin-bottom: 30px;
     padding: 8px;
     width: 80%;
     border: none;
@@ -71,4 +72,29 @@ const QuantityInput = styled.div`
   }
 `;
 
-export {Quantity, ProductDetailBodyContainer, ProductDetailContainer, ProductDetailImageContainer, QuantityInput}
+const DetailContainer = styled.div``;
+
+const DetailItem = styled.div`
+  margin-bottom: 10px;
+`;
+
+const DetailTitle = styled.div`
+  margin-bottom: 3px;
+  font-weight: bolder;
+`;
+
+const DetailContent = styled.div`
+  font-size: 0.8rem;
+`;
+
+export {
+    DetailItem,
+    DetailContent,
+    DetailTitle,
+    DetailContainer,
+    Quantity,
+    ProductDetailBodyContainer,
+    ProductDetailContainer,
+    ProductDetailImageContainer,
+    QuantityInput
+}

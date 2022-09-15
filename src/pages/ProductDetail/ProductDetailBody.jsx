@@ -1,12 +1,22 @@
-import {ProductDetailBodyContainer, Quantity, QuantityInput} from "./styles";
+import {
+    DetailContainer,
+    DetailContent, DetailItem,
+    DetailTitle,
+    ProductDetailBodyContainer,
+    Quantity,
+    QuantityInput
+} from "./styles";
 import {useContext, useEffect, useState} from "react";
 import GlobalState from "../../shared/GlobalStates";
 import priceFormatter from "../../utils/priceFormatter";
 import useQuantity from "../../Hooks/useQuantity";
+import formatContent from "../../utils/formatContent";
 
 const ProductDetailBody = ({data}) => {
     const {setIsNavigationBarAlwaysOpen} = useContext(GlobalState);
     const [quantity, increaseQuantity, decreaseQuantity] = useQuantity(data.maxQuantity);
+    const formattedContent = formatContent(data.content);
+    console.dir(formattedContent);
     useEffect(() => {
         setIsNavigationBarAlwaysOpen(true);
     }, [setIsNavigationBarAlwaysOpen]);
@@ -22,6 +32,14 @@ const ProductDetailBody = ({data}) => {
             </QuantityInput>
         </Quantity>
         <button>장바구니에 추가</button>
+        <DetailContainer>
+            {Object.keys(formattedContent).map((key, index) => {
+                return <DetailItem>
+                    <DetailTitle>{key}</DetailTitle>
+                    <DetailContent>{formattedContent[key]}</DetailContent>
+                </DetailItem>
+            })}
+        </DetailContainer>
     </ProductDetailBodyContainer>
 }
 
