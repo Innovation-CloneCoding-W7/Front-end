@@ -21,6 +21,7 @@ const ProductDetailBody = ({data}) => {
                 <p className="add" onClick={increaseQuantity}>+</p>
             </QuantityInput>
         </Quantity>
+        <button>장바구니에 추가</button>
     </ProductDetailBodyContainer>
 }
 

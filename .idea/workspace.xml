@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 수량 조절 부분 추가.">
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useQuantity.js" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] useQuantity Hook.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1662792065550" duration="4897000" />
       <workItem from="1663106387725" duration="12266000" />
       <workItem from="1663200582199" duration="15000" />
-      <workItem from="1663200624514" duration="9373000" />
+      <workItem from="1663200624514" duration="9546000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663210585680</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[Add] useQuantity Hook.">
+      <created>1663210889551</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210889551</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Delete] App.js 삭제." />
     <MESSAGE value="[Delete] 쓸모 없는 파일들 정리." />
     <MESSAGE value="[Fix] img alt 수정." />
     <MESSAGE value="[Fix] Fix minor issues." />
@@ -465,6 +471,7 @@
     <MESSAGE value="[Add] 카탈로그 상품 불러와서 뿌려주기." />
     <MESSAGE value="[Add] 상품 상세 페이지 추가." />
     <MESSAGE value="[Add] 수량 조절 부분 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 수량 조절 부분 추가." />
+    <MESSAGE value="[Add] useQuantity Hook." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] useQuantity Hook." />
   </component>
 </project>

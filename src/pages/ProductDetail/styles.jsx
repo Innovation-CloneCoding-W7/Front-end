@@ -24,9 +24,26 @@ const ProductDetailBodyContainer = styled.div`
     font-weight: normal;
     margin-bottom: 15px;
   }
+
+  button {
+    padding: 8px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
 `;
 
 const Quantity = styled.div`
+  margin-bottom: 30px;
+
   & > p {
     font-size: 0.8rem;
     margin-bottom: 10px;
