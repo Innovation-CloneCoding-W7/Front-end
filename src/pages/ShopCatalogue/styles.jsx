@@ -15,6 +15,40 @@ const ShopCatalogueHeaderContainer = styled.div`
   }
 `;
 
-const ShopCatalogueBodyContainer = styled.div``;
+const ProductContainer = styled.div`
+  transition: all .3s;
+  cursor: pointer;
 
-export {ShopCatalogueContainer, ShopCatalogueHeaderContainer, ShopCatalogueBodyContainer}
+  &:hover {
+    filter: brightness(0.8);
+  }
+`;
+
+const ShopCatalogueBodyContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32%, auto));
+  gap: 2%;
+  margin-bottom: 100px;
+`;
+
+const ProductImageContainer = styled.div`
+  img {
+    width: 100%;
+    height: auto;
+  }
+`;
+
+const ProductTitleContainer = styled.div`
+  p {
+    font-weight: bold;
+  }
+`;
+
+export {
+    ProductTitleContainer,
+    ProductImageContainer,
+    ProductContainer,
+    ShopCatalogueContainer,
+    ShopCatalogueHeaderContainer,
+    ShopCatalogueBodyContainer
+}
