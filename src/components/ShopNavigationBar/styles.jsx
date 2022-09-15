@@ -19,8 +19,12 @@ const ShopNavigationBarContainer = styled.div`
   }
 
   &:hover * {
-    color: black !important;
+    color: black;
     border-color: black !important;
+  }
+
+  &:hover a {
+    color: black !important;
   }
 
   ${(props) => props.$isNavigationBarAlwaysOpen ? `
@@ -84,6 +88,7 @@ const ShopNavigationBarRight = styled.div`
   display: flex;
   color: white;
   align-items: center;
+  position: relative;
 
   & a {
     color: inherit;
@@ -94,7 +99,7 @@ const ShopNavigationBarRight = styled.div`
     margin-right: 15px;
   }
 
-  p {
+  & > p {
     cursor: pointer;
     margin: 0;
     padding: 5px 10px;
@@ -105,6 +110,21 @@ const ShopNavigationBarRight = styled.div`
       background-color: lightgray;
     }
   }
+
 `;
 
-export {ShopNavigationBarContainer, ShopNavigationBarLeft, ShopNavigationBarCenter, ShopNavigationBarRight}
+const Badge = styled.div`
+  position: absolute;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  top: -3px;
+  left: 42px;
+
+  p {
+    padding: 0 3px;
+    font-size: 0.5rem;
+    color: white !important;
+  }
+`;
+
+export {Badge, ShopNavigationBarContainer, ShopNavigationBarLeft, ShopNavigationBarCenter, ShopNavigationBarRight}
