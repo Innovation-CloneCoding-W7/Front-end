@@ -3,6 +3,7 @@ import ShoppingCartItem from "./ShoppingCartItem";
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {getSomeProductsThunk} from "../../redux/modules/productSlice";
+import Invoice from "./Invoice";
 
 const ShoppingCart = ({localCart}) => {
     const response = useSelector(state => state.productSliceReducer);
@@ -18,6 +19,12 @@ const ShoppingCart = ({localCart}) => {
         return <div>{response.error}</div>
     }
     if (response.data) {
+        const subtotal = localCart.reduce((previous, cartItem) => {
+            const productName = cartItem.productName;
+            const targetItem = response.data.find(item => item.productName === productName);
+            const price = targetItem.price;
+            return previous + price * cartItem.quantity;
+        }, 0);
         return <ShoppingCartContainer>
             <ShoppingCartList>
                 {Object.keys(response.data).map((key) => {
@@ -28,7 +35,7 @@ const ShoppingCart = ({localCart}) => {
                 })}
             </ShoppingCartList>
             <ShoppingCartCheck>
-
+                <Invoice subtotal={subtotal}/>
             </ShoppingCartCheck>
         </ShoppingCartContainer>
     }

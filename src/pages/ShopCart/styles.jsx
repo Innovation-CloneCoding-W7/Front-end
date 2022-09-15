@@ -8,7 +8,7 @@ const ShopCartContainer = styled.div`
 `;
 
 const ShopCartHeaderContainer = styled.div`
-  width: 600px;
+  width: 800px;
   margin-bottom: 30px;
 
   h1 {
