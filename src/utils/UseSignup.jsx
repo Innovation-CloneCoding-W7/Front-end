@@ -1,14 +1,15 @@
 import instance from "../shared/Requests";
 
-const UseSignup = (data) => {
+const useSignup = (navi, data) => {
   instance
-    .post("api/member/signup", data)
+    .post("member/signup", data)
     .then((res) => {
       console.log(res);
+      navi("/login");
     })
     .catch((err) => {
       console.log(err);
     });
 };
 
-export default UseSignup;
+export default useSignup;

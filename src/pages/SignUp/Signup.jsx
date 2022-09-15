@@ -5,24 +5,25 @@ import { StDiv } from "../Login/Login";
 import { StInput } from "../Login/Login";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
+import { useNavigate } from "react-router-dom";
 
 import { useState } from "react";
-import UseSignup from "../../utils/UseSignup";
+import useSignup from "../../utils/useSignup";
 import styled from "styled-components";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
-  const regNickname = /[a-zA-Z\\d]{3,12}$/;
-  const regPassword = /[a-z\\d]{3,32}$/;
   const onChangeName = (e) => {
     setName(e.target.value);
   };
   const onChangeNickname = (e) => {
     setNickname(e.target.value);
+    test1(nickname);
   };
   const onChangeEmail = (e) => {
     setEmail(e.target.value);
@@ -31,27 +32,27 @@ const SignUp = () => {
     setPassword(e.target.value);
   };
 
+  const regNickname = /^[a-z0-9]{4,12}$/;
+  const regPassword = /^(?=.*\d)(?=.*[a-zA-Z])[0-9a-zA-Z]{4,16}$/;
+
   const [nicknameState, setNicknameState] = useState(1);
   const [passwordState, setPasswordState] = useState(1);
 
   const test1 = (nickname) => {
-    return !regNickname.test(nickname)
+    return regNickname.test(nickname)
       ? setNicknameState(0)
       : setNicknameState(1);
   };
 
   const test2 = (password) => {
-    return !regPassword.test(password)
+    return regPassword.test(password)
       ? setPasswordState(0)
       : setPasswordState(1);
   };
 
   const OnSubmitHandler = () => {
-    nicknameState === 0 && passwordState === 0
-      ? UseSignup({ nickname, name, password, email })
-      : alert("go back");
+    useSignup(navigate, { nickname, name, password, email });
   };
-
   return (
     <>
       <Header />
@@ -67,17 +68,16 @@ const SignUp = () => {
                 onChangeName(e);
               }}></StInput>
             <StDiv>
-              <StSpan1>Nickname</StSpan1>
+              <StSpan1>ID</StSpan1>
             </StDiv>
             <StInput
               onChange={(e) => {
                 onChangeNickname(e);
-                test1(nickname);
               }}></StInput>
             {nicknameState ? (
-              <Sta>사용불가능한 닉네임입니다</Sta>
+              <Sta1>사용불가능한 ID입니다</Sta1>
             ) : (
-              <Sta1>사용가능한 닉네임입니다</Sta1>
+              <Sta2>사용가능한 ID입니다</Sta2>
             )}
             <StDiv>
               <StSpan1>E-mail Address</StSpan1>
@@ -96,9 +96,9 @@ const SignUp = () => {
                 test2(password);
               }}></StInput>
             {passwordState ? (
-              <Sta>패스워드 형식에 어긋납니다</Sta>
+              <Sta3>패스워드 형식에 어긋납니다</Sta3>
             ) : (
-              <Sta1>사용가능한 패스워드입니다</Sta1>
+              <Sta4>사용가능한 패스워드입니다</Sta4>
             )}
           </StForm>
           <StButton
@@ -119,18 +119,34 @@ const SignUp = () => {
 
 export default SignUp;
 
-const Sta = styled.a`
-  color: red;
+const Sta1 = styled.a`
+  color: #f73737;
   font-size: 12px;
   width: 500px;
   float: right;
-  margin-left: 250px;
+  margin-left: 285px;
 `;
 
-const Sta1 = styled.a`
-  color: blue;
+const Sta2 = styled.a`
+  color: #4861ef;
   font-size: 12px;
   width: 500px;
   float: right;
-  margin-left: 250px;
+  margin-left: 295px;
+`;
+
+const Sta3 = styled.a`
+  color: #f73737;
+  font-size: 12px;
+  width: 500px;
+  float: right;
+  margin-left: 270px;
+`;
+
+const Sta4 = styled.a`
+  color: #4861ef;
+  font-size: 12px;
+  width: 500px;
+  float: right;
+  margin-left: 270px;
 `;

@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 import { useState } from "react";
-import UseLogin from "../../utils/UseLogin";
+import useLogin from "../../utils/useLogin";
+import { useNavigate } from "react-router-dom";
+
 const LogIn = () => {
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
-
+  const navi = useNavigate();
   const onChangeNickname = (e) => {
     setNickname(e.target.value);
   };
@@ -15,9 +17,9 @@ const LogIn = () => {
     setPassword(e.target.value);
   };
 
-  const onSubmitHandler = (event) => {
+  const OnSubmitHandler = (event) => {
     event.preventDefault();
-    UseLogin({ nickname, password });
+    useLogin(navi, { nickname, password });
   };
 
   return (
@@ -28,7 +30,7 @@ const LogIn = () => {
           <h1>Sign In</h1>
           <StForm>
             <StDiv>
-              <StSpan1>Email Address</StSpan1>
+              <StSpan1>ID</StSpan1>
             </StDiv>
             <StInput
               onChange={(e) => {
@@ -42,7 +44,7 @@ const LogIn = () => {
               onChange={(e) => {
                 onChangePassword(e);
               }}></StInput>
-            <StButton onClick={(e) => onSubmitHandler(e)}>Log In</StButton>
+            <StButton onClick={(e) => OnSubmitHandler(e)}>Log In</StButton>
           </StForm>
           <StForm>
             <StDiv2>

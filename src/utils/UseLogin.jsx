@@ -1,16 +1,19 @@
 import { setCookie } from "../Cookie";
 import instance from "../shared/Requests";
 
-const UseLogin = (data) => {
+const useLogin = (navi, data) => {
   instance
-    .post("api/member/login", data)
+    .post("member/login", data)
     .then((res) => {
-      setCookie("auth_token", res.headers.authorization);
-      setCookie("refresh_token", res.headers.refreshtoken);
+      res.data.error === null
+        ? navi("/") &&
+          setCookie("auth_token", res.headers.authorization) &&
+          setCookie("refresh_token", res.headers.refreshtoken)
+        : alert(res.data.error.message);
     })
     .catch((err) => {
       console.log(err);
     });
 };
 
-export default UseLogin;
+export default useLogin;
