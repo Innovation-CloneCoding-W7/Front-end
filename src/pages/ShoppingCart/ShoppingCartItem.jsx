@@ -1,12 +1,20 @@
-import {ItemContainer, ItemTitle} from "./styles";
+import {ItemContainer, ItemDetail, ItemImage, ItemQuantity, ItemTitle} from "./styles";
+import priceFormatter from "../../utils/priceFormatter";
 
-const ShoppingCartItem = ({item}) => {
-    console.dir(item);
+const ShoppingCartItem = ({item, cartItem}) => {
     return <ItemContainer>
-        <ItemTitle>
-            <h3>{item.productName}</h3>
-            <p>{item.price}</p>
-        </ItemTitle>
+        <ItemImage>
+            <img src={item.imageUrl} alt={item.productName}/>
+        </ItemImage>
+        <ItemDetail>
+            <ItemTitle>
+                <h3>{item.productName}</h3>
+                <p>{priceFormatter.format(item.price)}</p>
+            </ItemTitle>
+            <ItemQuantity>
+                <p>수량: {cartItem.quantity}</p>
+            </ItemQuantity>
+        </ItemDetail>
     </ItemContainer>
 }
 
