@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 소소한 수정.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 오탈자 수정.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopMain/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/Signup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +19,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EVjsNloo3PSYC1EWGqwVQbQM78" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,7 +76,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08f754bc-6583-4b82-9afd-5074663223a0" name="Changes" comment="" />
+      <changelist id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 오탈자 수정." />
       <created>1662687852338</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -92,6 +86,8 @@
       <workItem from="1662695816823" duration="17214000" />
       <workItem from="1662718962577" duration="7953000" />
       <workItem from="1662792065550" duration="4897000" />
+      <workItem from="1663106387725" duration="12266000" />
+      <workItem from="1663200582199" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -387,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663032354003</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[Fix] 오탈자 수정.">
+      <created>1663033836814</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663033836814</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +409,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] 의류 쇼케이스 추가." />
     <MESSAGE value="[Add] 샵내브바 왼쪽 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 중앙 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 오른쪽 부분 추가." />
@@ -431,6 +433,7 @@
     <MESSAGE value="[Add] cartSlice." />
     <MESSAGE value="[Add] 디스패처 연결." />
     <MESSAGE value="[Fix] 소소한 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 소소한 수정." />
+    <MESSAGE value="[Fix] 오탈자 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 오탈자 수정." />
   </component>
 </project>
