@@ -10,20 +10,28 @@ import {useDispatch, useSelector} from "react-redux";
 import {getProductsThunk} from "../../redux/modules/productSlice";
 
 const ShopCatalogue = () => {
-    const {isLoading, products, error} = useSelector((state) => state.productSliceReducer);
+    const {isLoading, data, error} = useSelector((state) => state.productSliceReducer);
     const {category} = useParams();
     const dispatcher = useDispatch();
     useEffect(() => {
         dispatcher(getProductsThunk(category));
     }, [dispatcher, category])
     const title = categoryMapper[category];
-    return <ShopLayout>
-        <ShopCatalogueContainer>
-            <ShopCatalogueHeader title={title}/>
-            <ShopCatalogueBody/>
+    if (isLoading) {
+        return <div>
+            Loading...
+        </div>
+    } else if (error) {
+        return <div>{error}</div>
+    } else {
+        return <ShopLayout>
+            <ShopCatalogueContainer>
+                <ShopCatalogueHeader title={title}/>
+                <ShopCatalogueBody products={data}/>
+            </ShopCatalogueContainer>
             <ShopFooter/>
-        </ShopCatalogueContainer>
-    </ShopLayout>
+        </ShopLayout>
+    }
 }
 
 export default ShopCatalogue;

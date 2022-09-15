@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 오탈자 수정.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Update] redux-logger 추가.">
+      <change afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogue.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogue.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogueBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/ShopCatalogueBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCatalogue/styles.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +92,7 @@
       <workItem from="1662792065550" duration="4897000" />
       <workItem from="1663106387725" duration="12266000" />
       <workItem from="1663200582199" duration="15000" />
+      <workItem from="1663200624514" duration="3439000" />
     </task>
     <task id="LOCAL-00001" summary="[Add] Axios 추가.">
       <created>1662695838316</created>
@@ -390,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663033836814</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="[Update] redux-logger 추가.">
+      <created>1663200723527</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663200723527</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] 샵내브바 왼쪽 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 중앙 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 오른쪽 부분 추가." />
     <MESSAGE value="[Add] 샵내브바 항목 호버 효과 추가." />
@@ -434,6 +445,7 @@
     <MESSAGE value="[Add] 디스패처 연결." />
     <MESSAGE value="[Fix] 소소한 수정." />
     <MESSAGE value="[Fix] 오탈자 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 오탈자 수정." />
+    <MESSAGE value="[Update] redux-logger 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update] redux-logger 추가." />
   </component>
 </project>
