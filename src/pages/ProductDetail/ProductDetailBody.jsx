@@ -11,15 +11,24 @@ import GlobalState from "../../shared/GlobalStates";
 import priceFormatter from "../../utils/priceFormatter";
 import useQuantity from "../../Hooks/useQuantity";
 import formatContent from "../../utils/formatContent";
+import {useDispatch} from "react-redux";
+import {addToCartThunk} from "../../redux/modules/cartSlice";
 
 const ProductDetailBody = ({data}) => {
     const {setIsNavigationBarAlwaysOpen} = useContext(GlobalState);
     const [quantity, increaseQuantity, decreaseQuantity] = useQuantity(data.maxQuantity);
     const formattedContent = formatContent(data.content);
-    console.dir(formattedContent);
+    const dispatcher = useDispatch();
     useEffect(() => {
         setIsNavigationBarAlwaysOpen(true);
     }, [setIsNavigationBarAlwaysOpen]);
+    const addClickHandler = () => {
+        const item = {
+            productName: data.productName,
+            quantity
+        };
+        dispatcher(addToCartThunk(item));
+    }
     return <ProductDetailBodyContainer>
         <h2>{data.productName}</h2>
         <h3>{priceFormatter.format(data.price)}</h3>
@@ -31,10 +40,10 @@ const ProductDetailBody = ({data}) => {
                 <p className="add" onClick={increaseQuantity}>+</p>
             </QuantityInput>
         </Quantity>
-        <button>장바구니에 추가</button>
+        <button onClick={addClickHandler}>장바구니에 추가</button>
         <DetailContainer>
             {Object.keys(formattedContent).map((key, index) => {
-                return <DetailItem>
+                return <DetailItem key={key}>
                     <DetailTitle>{key}</DetailTitle>
                     <DetailContent>{formattedContent[key]}</DetailContent>
                 </DetailItem>

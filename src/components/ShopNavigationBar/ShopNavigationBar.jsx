@@ -1,4 +1,5 @@
 import {
+    Badge,
     ShopNavigationBarCenter,
     ShopNavigationBarContainer,
     ShopNavigationBarLeft,
@@ -11,6 +12,14 @@ import GlobalState from "../../shared/GlobalStates";
 import OverlayMenu from "../OverlayMenu/OverlayMenu";
 
 const ShopNavigationBar = ({isNavigationBarAlwaysOpen}) => {
+    const getCartBadge = () => {
+        const localCart = localStorage.getItem("cart");
+        if (localCart) {
+            const cart = JSON.parse(localCart);
+            return cart.length;
+        }
+        return 0;
+    }
     let {setIsMenuOpen} = useContext(GlobalState);
     const menuClickHandler = () => {
         setIsMenuOpen(true);
@@ -33,6 +42,9 @@ const ShopNavigationBar = ({isNavigationBarAlwaysOpen}) => {
             <FaSearch/>
             <Link to="/cart">
                 <FaShoppingCart/>
+                <Badge>
+                    <p>{getCartBadge()}</p>
+                </Badge>
             </Link>
             <p onClick={menuClickHandler}>메뉴</p>
         </ShopNavigationBarRight>

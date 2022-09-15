@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 장바구니 추가 버튼 추가.">
-      <change afterPath="$PROJECT_DIR$/src/utils/formatContent.js" afterDir="false" />
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] formatContent.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/ShopNavigationBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopNavigationBar/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/modules/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/cartSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +92,7 @@
       <workItem from="1662792065550" duration="4897000" />
       <workItem from="1663106387725" duration="12266000" />
       <workItem from="1663200582199" duration="15000" />
-      <workItem from="1663200624514" duration="11584000" />
-    </task>
-    <task id="LOCAL-00001" summary="[Add] Axios 추가.">
-      <created>1662695838316</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1662695838316</updated>
+      <workItem from="1663200624514" duration="13631000" />
     </task>
     <task id="LOCAL-00002" summary="[Fix] .gitignore">
       <created>1662696572682</created>
@@ -436,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663211068260</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="[Add] formatContent.js">
+      <created>1663213147997</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663213147998</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Fix] img alt 수정." />
     <MESSAGE value="[Fix] Fix minor issues." />
     <MESSAGE value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
     <MESSAGE value="[Fix] 오버레이 메뉴 고침." />
@@ -480,6 +480,7 @@
     <MESSAGE value="[Add] 수량 조절 부분 추가." />
     <MESSAGE value="[Add] useQuantity Hook." />
     <MESSAGE value="[Add] 장바구니 추가 버튼 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 장바구니 추가 버튼 추가." />
+    <MESSAGE value="[Add] formatContent.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] formatContent.js" />
   </component>
 </project>
