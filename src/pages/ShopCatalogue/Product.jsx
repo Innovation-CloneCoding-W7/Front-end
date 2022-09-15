@@ -1,12 +1,14 @@
 import {ProductContainer, ProductImageContainer, ProductTitleContainer} from "./styles";
+import {useNavigate} from "react-router-dom";
+import priceFormatter from "../../utils/priceFormatter";
 
 const Product = ({product}) => {
-    const priceFormatter = new Intl.NumberFormat("ko-KR", {
-        style: "currency",
-        currency: "KRW"
-    });
+    const navigator = useNavigate();
     const formattedPrice = priceFormatter.format(product.price)
-    return <ProductContainer>
+    const productClickHandler = () => {
+        return navigator(`/shop/product/${product.productName}`);
+    }
+    return <ProductContainer onClick={productClickHandler}>
         <ProductImageContainer>
             <img loading="lazy" src={product.imageUrl} alt={product.productName}/>
         </ProductImageContainer>
