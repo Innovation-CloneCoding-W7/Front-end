@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 배지 추가.">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] 장바구니 로직 구현.">
+      <change afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail/ProductDetailBody.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/modules/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/cartSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/modules/individualProductSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/individualProductSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/modules/productSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/modules/productSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +94,7 @@
       <workItem from="1662792065550" duration="4897000" />
       <workItem from="1663106387725" duration="12266000" />
       <workItem from="1663200582199" duration="15000" />
-      <workItem from="1663200624514" duration="18765000" />
-    </task>
-    <task id="LOCAL-00003" summary="[Add] 파일 구조 예시.">
-      <created>1662699292719</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662699292719</updated>
+      <workItem from="1663200624514" duration="21773000" />
     </task>
     <task id="LOCAL-00004" summary="[Add] 파일 구조 예시.">
       <created>1662699949335</created>
@@ -437,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663215141276</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="[Add] 장바구니 로직 구현.">
+      <created>1663220593918</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663220593918</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Add] 샵 메인페이지 사이버휘슬 파트 추가." />
     <MESSAGE value="[Fix] 오버레이 메뉴 고침." />
     <MESSAGE value="[Fix] 샵 메인 컨테이너 블러 효과 추가." />
     <MESSAGE value="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정." />
@@ -481,6 +482,7 @@
     <MESSAGE value="[Add] 장바구니 추가 버튼 추가." />
     <MESSAGE value="[Add] formatContent.js" />
     <MESSAGE value="[Add] 배지 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] 배지 추가." />
+    <MESSAGE value="[Add] 장바구니 로직 구현." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] 장바구니 로직 구현." />
   </component>
 </project>
