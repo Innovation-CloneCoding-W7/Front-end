@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ShoppingCartContainer = styled.div`
-  width: 600px;
+  width: 800px;
   display: grid;
   grid-template-columns: 75% 20%;
   gap: 5%;
@@ -43,7 +43,37 @@ const ItemImage = styled.div`
 
 const ItemDetail = styled.div``;
 
+const InvoiceContainer = styled.div`
+  h2 {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  & > p {
+    font-size: 0.8rem;
+  }
+`;
+
+const ShippingCost = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+`;
+
+const Subtotal = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+
+  p:last-child {
+    font-weight: bolder;
+  }
+`;
+
 export {
+    Subtotal,
+    ShippingCost,
+    InvoiceContainer,
     ItemDetail,
     ItemImage,
     ItemQuantity,
